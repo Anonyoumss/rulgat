@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+dist/
+.env
+.env.*
+!.env.example
+backend/pocketbase/pocketbase
+backend/pocketbase/pb_data/
+backend/.env
+*.log
+.DS_Store

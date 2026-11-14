@@ -1,0 +1,104 @@
+# Handoff — RulGAT / كويز بوكس
+
+> Living status document. The executing agent updates this after every milestone.
+> Format: `### Phase N — Title (status)` → bullets of what was done, then
+> `## Open Questions for PM` and `## Known Gaps`.
+
+## Current Status
+
+**Phase 1–5 (core build) — MOSTLY COMPLETE** (autonomous overnight run)
+Web app builds clean (Next.js 14, 17 routes), 191-question seed bank
+validated, TIGDR garden game, Qiyas CBT mock, stories, pomodoro, planner,
+profile — all functional in demo/local mode. Flutter scaffold + CI
+workflows added. Backend provisioning script written (not yet executed).
+
+## Phase Log
+
+### Phase 0 — Bootstrap & docs
+- Repo initialized at `RulGAT/` (git, main branch).
+- MASTER_PROMPT.md (bilingual spec) committed as source of truth.
+- Directory skeleton: `web/`, `mobile/`, `backend/`, `content/`, `docs/`,
+  `assets/`, `.github/workflows/`, `tests/`.
+- Seed question bank discovered locally: `Arabic_GAT_offical_Mock.JSON` (96)
+  + `English_GAT_offical_Mock.JSON` (96) = 192 real GAT questions.
+- Design reference: OnePrep mirror at `~/Desktop/oneprep_download` (Next.js
+  CSS design tokens + Preppy mascot assets); tiqdr.com scraped for brand assets.
+
+### Phase 1 — Foundation (done)
+- Next.js 14 + TS + Tailwind scaffolded; M3/OnePrep token system in
+  globals.css; liquid-glass utilities; animated light/dark theme engine;
+  floating pill BottomNav (framer-motion layoutId); full AR/EN i18n with
+  RTL/LTR switching.
+- `geo-core` lib: parametric garden scenes (grid, triangle, sector,
+  composite) with mathematically computed wateredRatio + formatRatio.
+- 191 questions ingested & schema-validated (scripts/ingest_questions.py,
+  validate_questions.py, tests/questions.test.mjs — all pass).
+
+### Phase 2 — Backend, auth, data (partial)
+- `backend/scripts/setup-backend.sh` written: downloads PocketBase 0.22.10,
+  creates superuser, writes pb_migrations/0001_init.pb.js (questions,
+  progress, stories collections) + backend/.env. NOT yet executed locally.
+- Web app runs fully in demo mode (localStorage/IndexedDB-style progress);
+  PocketBase sync layer NOT yet wired into the client.
+- Google Auth/Analytics/Calendar: env-gated stubs, not implemented.
+
+### Phase 3 — Curriculum & content (partial)
+- docs/CURRICULUM.md taxonomy complete (ch0–ch3, 24 topics).
+- Lesson content: concise summaries + test-tips for key topics in
+  lib/curriculum.ts; full PDF-derived content pending.
+- Interactive PDF companion: NOT built (⬜ in UI_MAP).
+
+### Phase 4 — Gamification & games (done, core)
+- TIGDR mascot (original SVG tiger — tiqdr.com mascot asset not found on
+  public pages; brand logo/slider saved to assets/mascot/).
+- /tigdr hub + /tigdr/play: Garden Water game — TIGDR watering animation,
+  GeoScene SVG rendering, watered/dry ratio questions with computed
+  ground truth, XP/water rewards, streaks.
+- /stories: doom-scroll vertical feed (drag/swipe cards) — 3 stories incl.
+  the canonical gardener/watering arc.
+- /pomodoro: 25/5 focus timer → water drops + XP.
+- /planner: rules-based Qudrat Compass (accuracy-driven review topics,
+  mock cadence near test date).
+
+### Phase 5 — Mock test & ship (partial)
+- /mock setup (chapter/section/count/duration) → /mock/exam full CBT UI:
+  sticky top bar (logo, topic, counter, A−/A+ font steps, countdown timer
+  with <5min urgency pulse, flag toggle, question palette modal with
+  answered/flagged/current states), 4-option rows, prev/next footer,
+  finish confirmation, auto-submit at 0, resume via sessionStorage.
+- /mock/results: score banner, per-topic accuracy bars, full review with
+  explanations, recordMock → profile history.
+- /profile (ملف الطالب): XP/level ring, streak/water/mocks chips,
+  per-chapter mastery bars, mock history.
+- /settings: AR/EN toggle, light/dark/system theme, danger-zone reset.
+- Web build green: `npm run build` → 17 routes, all static except
+  /lesson/[id]. Dev server smoke-tested (200s on /, /mock, /tigdr/play).
+- Flutter scaffold (mobile/lib/main.dart) — Material 3, AR/EN, 5-tab shell;
+  NOT yet built (no local Flutter toolchain).
+- CI: .github/workflows/build-web.yml + build-android.yml written.
+- GitHub repo + push: pending at time of writing (see git log).
+
+## Open Questions for PM
+1. Source format of the full 6,000-question bank (PDF? JSON? spreadsheets?).
+   Only 192-question official mock JSONs were found locally so far.
+2. Are the Al-Moasser 11 PDFs selectable text or scanned images?
+3. Final branding: "كويز بوكس" vs "RulGAT" vs "Qudrat Question Compass"?
+4. Latin digits vs Arabic-Indic digits in the UI?
+5. TIGDR mascot: tiqdr.com scrape yielded no obvious mascot file on the
+   homepage — need the asset URL or approval to generate placeholder art.
+6. Local-only progress OK for v1, or must accounts sync on day one?
+7. Mock-test reference: QIYAS.com, E-TEC, or both skins?
+8. Backend hosting target for PocketBase (local/VPS/cloud free tier)?
+
+## Known Gaps
+- Question bank is a seed (191 questions), not 6,000 — content pipeline is
+  ready but bulk ingestion awaits PM source.
+- PocketBase backend scripted but not executed/deployed; no live sync yet.
+- Flutter client is a scaffold shell — features not yet ported; no APK built
+  locally (toolchain absent; CI workflow ready).
+- Google Auth / Analytics / Calendar are env-gated stubs pending credentials.
+- Interactive PDF companion not built; QR deep-links not generated.
+- TIGDR uses original placeholder tiger SVG — tiqdr.com mascot art not
+  publicly exposed; needs brand asset from PM.
+- Stories content is 3 hand-written stories; needs bulk content pipeline.
+- macOS SwiftUI / Windows WinUI are roadmap-only per spec.

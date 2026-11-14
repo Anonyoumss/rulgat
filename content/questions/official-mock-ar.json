@@ -1,0 +1,2662 @@
+[
+ {
+  "id": "ARB_Q01",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 2,
+  "topic": "Percentages & Ratios",
+  "topic_id": "ch2.pct",
+  "stem": "تقطع سيارة ٤٨٠ كلم؛ فتستهلك ٨٠ لترًا من البنزين، فما عدد لترات البنزين التي تحتاجها السيارة لقطع ٦٠٠ كلم؟",
+  "stem_i18n": {
+   "ar": "تقطع سيارة ٤٨٠ كلم؛ فتستهلك ٨٠ لترًا من البنزين، فما عدد لترات البنزين التي تحتاجها السيارة لقطع ٦٠٠ كلم؟"
+  },
+  "options": [
+   "١٠٠",
+   "١٢٠",
+   "٨٠",
+   "٦٠"
+  ],
+  "answer_index": 0,
+  "answer_label": "A",
+  "explanation": "",
+  "difficulty": 2,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Percentages & Ratios"
+  ]
+ },
+ {
+  "id": "ARB_Q02",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 1,
+  "topic": "Fractions & Divisibility",
+  "topic_id": "ch1.frac",
+  "stem": "أقرب قيمة للمقدار √(١٩ + (٣.٩)²) هي:",
+  "stem_i18n": {
+   "ar": "أقرب قيمة للمقدار √(١٩ + (٣.٩)²) هي:"
+  },
+  "options": [
+   "٤",
+   "٥",
+   "٦",
+   "٧"
+  ],
+  "answer_index": 2,
+  "answer_label": "C",
+  "explanation": "",
+  "difficulty": 3,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Fractions & Divisibility"
+  ]
+ },
+ {
+  "id": "ARB_Q03",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 2,
+  "topic": "Percentages & Ratios",
+  "topic_id": "ch2.pct",
+  "stem": "قُسمت أرض مساحتها ٩٠٠م² إلى أجزاء متساوية حسب الجدول البياني التالي (المنشأة وعدد الأجزاء: فيلا ١٤، ملحق ضيوف ٢ ١/٣، مسجد ٢، حديقة ٥ ١/٣، مرآب ١ ١/٣). أي الجمل الآتية غير صحيح؟",
+  "stem_i18n": {
+   "ar": "قُسمت أرض مساحتها ٩٠٠م² إلى أجزاء متساوية حسب الجدول البياني التالي (المنشأة وعدد الأجزاء: فيلا ١٤، ملحق ضيوف ٢ ١/٣، مسجد ٢، حديقة ٥ ١/٣، مرآب ١ ١/٣). أي الجمل الآتية غير صحيح؟"
+  },
+  "options": [
+   "ملحق الضيوف والمسجد هما الأكثر تقاربًا في المساحة",
+   "مساحة الحديقة تساوي خُمس مساحة الأرض",
+   "الفيلا والمرآب هما الأكثر تباعدًا في المساحة",
+   "المرآب هو الأصغر مساحة"
+  ],
+  "answer_index": 1,
+  "answer_label": "B",
+  "explanation": "",
+  "difficulty": 2,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Percentages & Ratios"
+  ]
+ },
+ {
+  "id": "ARB_Q04",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 2,
+  "topic": "Percentages & Ratios",
+  "topic_id": "ch2.pct",
+  "stem": "ما نسبة مساحة الفيلا إلى مساحة الأرض؟",
+  "stem_i18n": {
+   "ar": "ما نسبة مساحة الفيلا إلى مساحة الأرض؟"
+  },
+  "options": [
+   "%٥٧ ١/٢",
+   "%٥٦",
+   "%٥٤ ١/٢",
+   "%٥٣"
+  ],
+  "answer_index": 1,
+  "answer_label": "B",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Percentages & Ratios"
+  ]
+ },
+ {
+  "id": "ARB_Q05",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 0,
+  "topic": "Unit Conversions",
+  "topic_id": "ch0.bigint",
+  "stem": "إذا أردنا تخزين علب صابون حجم الواحدة منها ٠٠٦,٠م³ في مستودع سعته ٤٨م³، فكم علبة يمكن تخزينها فيه؟",
+  "stem_i18n": {
+   "ar": "إذا أردنا تخزين علب صابون حجم الواحدة منها ٠٠٦,٠م³ في مستودع سعته ٤٨م³، فكم علبة يمكن تخزينها فيه؟"
+  },
+  "options": [
+   "٨٠٠",
+   "٧٠٠",
+   "٦٠٠",
+   "٥٠٠"
+  ],
+  "answer_index": 0,
+  "answer_label": "A",
+  "explanation": "",
+  "difficulty": 2,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Unit Conversions"
+  ]
+ },
+ {
+  "id": "ARB_Q06",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 1,
+  "topic": "Algebraic Comparisons",
+  "topic_id": "ch1.dec",
+  "stem": "ما العدد الذي يزيد نصفه على ربعه بمقدار ١٥؟",
+  "stem_i18n": {
+   "ar": "ما العدد الذي يزيد نصفه على ربعه بمقدار ١٥؟"
+  },
+  "options": [
+   "٦٠",
+   "٤٥",
+   "٤٠",
+   "٣٥"
+  ],
+  "answer_index": 0,
+  "answer_label": "A",
+  "explanation": "",
+  "difficulty": 2,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Algebraic Comparisons"
+  ]
+ },
+ {
+  "id": "ARB_Q07",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 2,
+  "topic": "Percentages & Ratios",
+  "topic_id": "ch2.pct",
+  "stem": "يملك بائع تمور ٢٦٤ كجم من التمر، وزعها في ١٥٠ كيسًا، بعضها وزنه ١ كجم، والباقي وزنه ٢ كجم؛ فما عدد العبوات المكوّن وزنها من ٢ كجم؟",
+  "stem_i18n": {
+   "ar": "يملك بائع تمور ٢٦٤ كجم من التمر، وزعها في ١٥٠ كيسًا، بعضها وزنه ١ كجم، والباقي وزنه ٢ كجم؛ فما عدد العبوات المكوّن وزنها من ٢ كجم؟"
+  },
+  "options": [
+   "٥٢",
+   "٨٨",
+   "٩٦",
+   "١١٤"
+  ],
+  "answer_index": 3,
+  "answer_label": "D",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Percentages & Ratios"
+  ]
+ },
+ {
+  "id": "ARB_Q08",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 2,
+  "topic": "Percentages & Ratios",
+  "topic_id": "ch2.pct",
+  "stem": "ما عدد الأخماس في ٤٥٪؟",
+  "stem_i18n": {
+   "ar": "ما عدد الأخماس في ٤٥٪؟"
+  },
+  "options": [
+   "٢ ٣/٤",
+   "٢ ١/٢",
+   "٢",
+   "٢ ١/٤"
+  ],
+  "answer_index": 3,
+  "answer_label": "D",
+  "explanation": "",
+  "difficulty": 2,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Percentages & Ratios"
+  ]
+ },
+ {
+  "id": "ARB_Q09",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 3,
+  "topic": "Geometry & Area",
+  "topic_id": "ch3.shade",
+  "stem": "في الشكل التالي، القطعة المستقيمة ن و تصل بين منتصفي الضلعين أ ب و أ جـ، والقطعة المستقيمة د هـ تصل بين منتصفي الضلعين أ ن و أ و. فما نسبة (٢(ن ب) + ٢(هـ و)) / ((أ و) + (أ ب))؟",
+  "stem_i18n": {
+   "ar": "في الشكل التالي، القطعة المستقيمة ن و تصل بين منتصفي الضلعين أ ب و أ جـ، والقطعة المستقيمة د هـ تصل بين منتصفي الضلعين أ ن و أ و. فما نسبة (٢(ن ب) + ٢(هـ و)) / ((أ و) + (أ ب))؟"
+  },
+  "options": [
+   "١/٤",
+   "١/٣",
+   "١/٢",
+   "١"
+  ],
+  "answer_index": 3,
+  "answer_label": "D",
+  "explanation": "",
+  "difficulty": 2,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Geometry & Area"
+  ]
+ },
+ {
+  "id": "ARB_Q10",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 0,
+  "topic": "Counting & Combinatorics",
+  "topic_id": "ch0.stats",
+  "stem": "لدينا ٧٦ كرسيًا، وأردنا توزيعها على ٢٤ غرفة بالتساوي، فكم كرسيًا يبقى؟",
+  "stem_i18n": {
+   "ar": "لدينا ٧٦ كرسيًا، وأردنا توزيعها على ٢٤ غرفة بالتساوي، فكم كرسيًا يبقى؟"
+  },
+  "options": [
+   "٦",
+   "٤",
+   "٣",
+   "٢"
+  ],
+  "answer_index": 1,
+  "answer_label": "B",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Counting & Combinatorics"
+  ]
+ },
+ {
+  "id": "ARB_Q11",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 1,
+  "topic": "Algebraic Comparisons",
+  "topic_id": "ch1.dec",
+  "stem": "لدى حسام حزمة من الأوراق النقدية مكونة من فئتين: ٥ ريالات و ١٠ ريالات، ومجموعها ١٢٠ ورقة؛ فإذا كان عدد الأوراق ذات فئة ١٠ ريالات تساوي أمثال عدد الأوراق ذات فئة ٥ ريالات، فما مقدار هذا المبلغ؟",
+  "stem_i18n": {
+   "ar": "لدى حسام حزمة من الأوراق النقدية مكونة من فئتين: ٥ ريالات و ١٠ ريالات، ومجموعها ١٢٠ ورقة؛ فإذا كان عدد الأوراق ذات فئة ١٠ ريالات تساوي أمثال عدد الأوراق ذات فئة ٥ ريالات، فما مقدار هذا المبلغ؟"
+  },
+  "options": [
+   "١١٠٠",
+   "١٠٠٠",
+   "٩٥٠",
+   "٩٠٠"
+  ],
+  "answer_index": 2,
+  "answer_label": "C",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Algebraic Comparisons"
+  ]
+ },
+ {
+  "id": "ARB_Q12",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Contextual Error",
+  "topic_id": "ch0.intro",
+  "stem": "ما أقل تفكيرنا فيما **لدينا**! وما أكثر تفكيرنا فيما **نملكه**!",
+  "stem_i18n": {
+   "ar": "ما أقل تفكيرنا فيما **لدينا**! وما أكثر تفكيرنا فيما **نملكه**!"
+  },
+  "options": [
+   "أقل",
+   "لدينا",
+   "أكثر",
+   "نملكه"
+  ],
+  "answer_index": 3,
+  "answer_label": "D",
+  "explanation": "",
+  "difficulty": 3,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Contextual Error"
+  ]
+ },
+ {
+  "id": "ARB_Q13",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Contextual Error",
+  "topic_id": "ch0.intro",
+  "stem": "ما زال كثير من **الناس** لا يهمه إلا **نفسه**، فلا **يحترم** حقوق الآخرين، بل **يحافظ** عليها.",
+  "stem_i18n": {
+   "ar": "ما زال كثير من **الناس** لا يهمه إلا **نفسه**، فلا **يحترم** حقوق الآخرين، بل **يحافظ** عليها."
+  },
+  "options": [
+   "الناس",
+   "نفسه",
+   "يحترم",
+   "يحافظ"
+  ],
+  "answer_index": 3,
+  "answer_label": "D",
+  "explanation": "",
+  "difficulty": 3,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Contextual Error"
+  ]
+ },
+ {
+  "id": "ARB_Q14",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Contextual Error",
+  "topic_id": "ch0.intro",
+  "stem": "من **الإنصاف** رغبة البعض أن يتقدم عند **الإشارة** ولو كان على حساب **إغلاق** منفذ الآخرين.",
+  "stem_i18n": {
+   "ar": "من **الإنصاف** رغبة البعض أن يتقدم عند **الإشارة** ولو كان على حساب **إغلاق** منفذ الآخرين."
+  },
+  "options": [
+   "الإنصاف",
+   "الإشارة",
+   "إغلاق",
+   "منفذ"
+  ],
+  "answer_index": 0,
+  "answer_label": "A",
+  "explanation": "",
+  "difficulty": 2,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Contextual Error"
+  ]
+ },
+ {
+  "id": "ARB_Q15",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Contextual Error",
+  "topic_id": "ch0.intro",
+  "stem": "**نعلم** أن تربية الأبناء **أمانة** ومسؤولية يهتم بها البعض **بإهمال** أو سذاجة.",
+  "stem_i18n": {
+   "ar": "**نعلم** أن تربية الأبناء **أمانة** ومسؤولية يهتم بها البعض **بإهمال** أو سذاجة."
+  },
+  "options": [
+   "نعلم",
+   "أمانة",
+   "يهتم",
+   "بإهمال"
+  ],
+  "answer_index": 3,
+  "answer_label": "D",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Contextual Error"
+  ]
+ },
+ {
+  "id": "ARB_Q16",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Closest Meaning",
+  "topic_id": "ch0.intro",
+  "stem": "الدين أعتى عصمة والأمن أفضل نعمة.",
+  "stem_i18n": {
+   "ar": "الدين أعتى عصمة والأمن أفضل نعمة."
+  },
+  "options": [
+   "أعتى",
+   "عصمة",
+   "الأمن",
+   "أفضل"
+  ],
+  "answer_index": 0,
+  "answer_label": "A",
+  "explanation": "",
+  "difficulty": 2,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Closest Meaning"
+  ]
+ },
+ {
+  "id": "ARB_Q17",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Sentence Completion",
+  "topic_id": "ch0.intro",
+  "stem": "كان كثير من البيوت في البلاد العربية يبنى من الطين، ومع أنها تتعرّض........ فما يزال العديد منها قائماً وآمناً، ويحسب الناس أن يلجؤوا إليها لاسيما في مواسم الحر.",
+  "stem_i18n": {
+   "ar": "كان كثير من البيوت في البلاد العربية يبنى من الطين، ومع أنها تتعرّض........ فما يزال العديد منها قائماً وآمناً، ويحسب الناس أن يلجؤوا إليها لاسيما في مواسم الحر."
+  },
+  "options": [
+   "للبقاء",
+   "للماضي",
+   "للسكن",
+   "للتشقق"
+  ],
+  "answer_index": 3,
+  "answer_label": "D",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Sentence Completion"
+  ]
+ },
+ {
+  "id": "ARB_Q18",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Sentence Completion",
+  "topic_id": "ch0.intro",
+  "stem": "أحسن الكلام ما كان......... قليله عن كثيره.",
+  "stem_i18n": {
+   "ar": "أحسن الكلام ما كان......... قليله عن كثيره."
+  },
+  "options": [
+   "يقيك",
+   "يحميك",
+   "يغنيك",
+   "يبعدك"
+  ],
+  "answer_index": 2,
+  "answer_label": "C",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Sentence Completion"
+  ]
+ },
+ {
+  "id": "ARB_Q19",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Sentence Completion",
+  "topic_id": "ch0.intro",
+  "stem": "قال حكيم: \" أَلِنْ......... لقومك يحبُّوك، وتواضع لهم يرفعوك، وابسط لهم......... يطيعوك\".",
+  "stem_i18n": {
+   "ar": "قال حكيم: \" أَلِنْ......... لقومك يحبُّوك، وتواضع لهم يرفعوك، وابسط لهم......... يطيعوك\"."
+  },
+  "options": [
+   "زمامك – وجهك",
+   "جانبك – يدك",
+   "حديثك – فراشك",
+   "مركبك – دراهمك"
+  ],
+  "answer_index": 1,
+  "answer_label": "B",
+  "explanation": "",
+  "difficulty": 2,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Sentence Completion"
+  ]
+ },
+ {
+  "id": "ARB_Q20",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Sentence Completion",
+  "topic_id": "ch0.intro",
+  "stem": "تحتل البلاد العربية مكانة......... في النهضة الثقافية عموماً، وفي الشعر والآداب المعاصرة خاصة، ولكننا نتطلع لمزيد من......... في هذا المجال.",
+  "stem_i18n": {
+   "ar": "تحتل البلاد العربية مكانة......... في النهضة الثقافية عموماً، وفي الشعر والآداب المعاصرة خاصة، ولكننا نتطلع لمزيد من......... في هذا المجال."
+  },
+  "options": [
+   "مرموقة – الإسهام",
+   "مختلفة – النهضة",
+   "نامية – التضخم",
+   "متواضعة – الإنتاج"
+  ],
+  "answer_index": 0,
+  "answer_label": "A",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Sentence Completion"
+  ]
+ },
+ {
+  "id": "ARB_Q21",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Sentence Completion",
+  "topic_id": "ch0.intro",
+  "stem": "ثورة تقنية المعلومات والاتصالات.........إبداع إنساني مشترك، لكن.........البشرية تدفع إلى الاستحواذ على ثمارها وحرمان الآخرين منها.",
+  "stem_i18n": {
+   "ar": "ثورة تقنية المعلومات والاتصالات.........إبداع إنساني مشترك، لكن.........البشرية تدفع إلى الاستحواذ على ثمارها وحرمان الآخرين منها."
+  },
+  "options": [
+   "نتيجة – السلطة",
+   "انعكاس – الإرادة",
+   "صدى – النزعة",
+   "نتاج – الأنانية"
+  ],
+  "answer_index": 3,
+  "answer_label": "D",
+  "explanation": "",
+  "difficulty": 2,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Sentence Completion"
+  ]
+ },
+ {
+  "id": "ARB_Q22",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Sentence Completion",
+  "topic_id": "ch0.intro",
+  "stem": "الانطباع......... الذي تتركه لدى الآخرين من أول مرّة، لا يمكن تكراره، ولن......... بفرصة ثانية لعمله.",
+  "stem_i18n": {
+   "ar": "الانطباع......... الذي تتركه لدى الآخرين من أول مرّة، لا يمكن تكراره، ولن......... بفرصة ثانية لعمله."
+  },
+  "options": [
+   "المتميز – تنشغل",
+   "السيئ – تمر",
+   "الجيد – تحظى",
+   "المفاجئ – ترضى"
+  ],
+  "answer_index": 2,
+  "answer_label": "C",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Sentence Completion"
+  ]
+ },
+ {
+  "id": "ARB_Q23",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Analogy",
+  "topic_id": "ch0.intro",
+  "stem": "خبز : عفن",
+  "stem_i18n": {
+   "ar": "خبز : عفن"
+  },
+  "options": [
+   "صَمَم : سَمْع",
+   "ماء : تلوث",
+   "تسوس : أسنان",
+   "كساد : زراعة"
+  ],
+  "answer_index": 1,
+  "answer_label": "B",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Analogy"
+  ]
+ },
+ {
+  "id": "ARB_Q24",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Analogy",
+  "topic_id": "ch0.intro",
+  "stem": "شراع : سفينة",
+  "stem_i18n": {
+   "ar": "شراع : سفينة"
+  },
+  "options": [
+   "دقيقة : ثانية",
+   "بحر : ماء",
+   "بطارية : ساعة",
+   "حصان : مضمار"
+  ],
+  "answer_index": 2,
+  "answer_label": "C",
+  "explanation": "",
+  "difficulty": 2,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Analogy"
+  ]
+ },
+ {
+  "id": "ARB_Q25",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 1,
+  "topic": "Sequences",
+  "topic_id": "ch1.frac",
+  "stem": "ما الحد التالي في النمط: ١/٣ ، ١/٢ ، ٣/٥ ، ٢/٣ ، ٥/٧ ، ٣/٤ ، ٧/٩ ، ....؟",
+  "stem_i18n": {
+   "ar": "ما الحد التالي في النمط: ١/٣ ، ١/٢ ، ٣/٥ ، ٢/٣ ، ٥/٧ ، ٣/٤ ، ٧/٩ ، ....؟"
+  },
+  "options": [
+   "١١/١٣",
+   "٩/١١",
+   "٥/٦",
+   "٤/٥"
+  ],
+  "answer_index": 1,
+  "answer_label": "B",
+  "explanation": "",
+  "difficulty": 2,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Sequences"
+  ]
+ },
+ {
+  "id": "ARB_Q26",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 0,
+  "topic": "Counting & Combinatorics",
+  "topic_id": "ch0.stats",
+  "stem": "في أحد الأندية ١٥ لاعبًا، شُكِّل منهم فريقان (أ) و(ب)، عدد الفريق (أ) ١٠ والفريق (ب) ٨؛ أي أن هناك لاعبين شاركوا في الفريقين، فما عددهم؟",
+  "stem_i18n": {
+   "ar": "في أحد الأندية ١٥ لاعبًا، شُكِّل منهم فريقان (أ) و(ب)، عدد الفريق (أ) ١٠ والفريق (ب) ٨؛ أي أن هناك لاعبين شاركوا في الفريقين، فما عددهم؟"
+  },
+  "options": [
+   "٨",
+   "٧",
+   "٤",
+   "٣"
+  ],
+  "answer_index": 3,
+  "answer_label": "D",
+  "explanation": "",
+  "difficulty": 3,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Counting & Combinatorics"
+  ]
+ },
+ {
+  "id": "ARB_Q27",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 0,
+  "topic": "Logic",
+  "topic_id": "ch0.intro",
+  "stem": "إذا وقعت مدينة ما في جنوب شرق مكة المكرمة، ففي أي اتجاه تكون قبلة سكان هذه المدينة؟",
+  "stem_i18n": {
+   "ar": "إذا وقعت مدينة ما في جنوب شرق مكة المكرمة، ففي أي اتجاه تكون قبلة سكان هذه المدينة؟"
+  },
+  "options": [
+   "الشمال الشرقي",
+   "الشمال الغربي",
+   "الجنوب الغربي",
+   "الجنوب الشرقي"
+  ],
+  "answer_index": 1,
+  "answer_label": "B",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Logic"
+  ]
+ },
+ {
+  "id": "ARB_Q28",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 0,
+  "topic": "Counting & Combinatorics",
+  "topic_id": "ch0.stats",
+  "stem": "يتضاعف أحد الكائنات الدقيقة كل نصف ساعة، فما عدد الكائنات المتكونة من كائن واحد خلال ثلاث ساعات؟",
+  "stem_i18n": {
+   "ar": "يتضاعف أحد الكائنات الدقيقة كل نصف ساعة، فما عدد الكائنات المتكونة من كائن واحد خلال ثلاث ساعات؟"
+  },
+  "options": [
+   "١٦",
+   "٣٢",
+   "٦٤",
+   "١٢٨"
+  ],
+  "answer_index": 2,
+  "answer_label": "C",
+  "explanation": "",
+  "difficulty": 2,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Counting & Combinatorics"
+  ]
+ },
+ {
+  "id": "ARB_Q29",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 3,
+  "topic": "Geometry & Area",
+  "topic_id": "ch3.shade",
+  "stem": "في الشكل التالي، أ ب جـ د مربع. ما قياس الزاوية د ل جـ؟",
+  "stem_i18n": {
+   "ar": "في الشكل التالي، أ ب جـ د مربع. ما قياس الزاوية د ل جـ؟"
+  },
+  "options": [
+   "٧٥°",
+   "٨٥°",
+   "٩٥°",
+   "١٠٥°"
+  ],
+  "answer_index": 0,
+  "answer_label": "A",
+  "explanation": "",
+  "difficulty": 3,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Geometry & Area"
+  ]
+ },
+ {
+  "id": "ARB_Q30",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 1,
+  "topic": "Algebraic Comparisons",
+  "topic_id": "ch1.dec",
+  "stem": "إذا كان: ٢/(٥+س) = ١/٤ فما قيمة س؟",
+  "stem_i18n": {
+   "ar": "إذا كان: ٢/(٥+س) = ١/٤ فما قيمة س؟"
+  },
+  "options": [
+   "صفر",
+   "١",
+   "٢",
+   "٣"
+  ],
+  "answer_index": 3,
+  "answer_label": "D",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Algebraic Comparisons"
+  ]
+ },
+ {
+  "id": "ARB_Q31",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 1,
+  "topic": "Algebraic Comparisons",
+  "topic_id": "ch1.dec",
+  "stem": "حصل صالح في ٣ اختبارات على: ٧٥،٧٧،٧٩ وحصل زميله أحمد على: ٧٥،٨٣،٧٣. المطلوب هو المقارنة بين: Column A: متوسط درجات صالح. Column B: متوسط درجات أحمد.",
+  "stem_i18n": {
+   "ar": "حصل صالح في ٣ اختبارات على: ٧٥،٧٧،٧٩ وحصل زميله أحمد على: ٧٥،٨٣،٧٣. المطلوب هو المقارنة بين: Column A: متوسط درجات صالح. Column B: متوسط درجات أحمد."
+  },
+  "options": [
+   "القيمة الأولى أكبر من الثانية",
+   "القيمة الثانية أكبر من الأولى",
+   "القيمتان متساويتان",
+   "المعطيات غير كافية"
+  ],
+  "answer_index": 2,
+  "answer_label": "C",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Algebraic Comparisons"
+  ]
+ },
+ {
+  "id": "ARB_Q32",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 3,
+  "topic": "Geometry & Area",
+  "topic_id": "ch3.shade",
+  "stem": "دائرتان؛ نصف قطر الكبرى ٥سم، ونصف قطر الصغرى ٣سم، المطلوب هو المقارنة بين: Column A: مساحة الدائرة الكبرى. Column B: ٤ أمثال مساحة الدائرة الصغرى.",
+  "stem_i18n": {
+   "ar": "دائرتان؛ نصف قطر الكبرى ٥سم، ونصف قطر الصغرى ٣سم، المطلوب هو المقارنة بين: Column A: مساحة الدائرة الكبرى. Column B: ٤ أمثال مساحة الدائرة الصغرى."
+  },
+  "options": [
+   "القيمة الأولى أكبر من الثانية",
+   "القيمة الثانية أكبر من الأولى",
+   "القيمتان متساويتان",
+   "المعطيات غير كافية"
+  ],
+  "answer_index": 1,
+  "answer_label": "B",
+  "explanation": "",
+  "difficulty": 3,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Geometry & Area"
+  ]
+ },
+ {
+  "id": "ARB_Q33",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 1,
+  "topic": "Algebraic Comparisons",
+  "topic_id": "ch1.dec",
+  "stem": "المطلوب هو المقارنة بين: Column A: ٠.٥ × ٥ × ٠.٥ × ٥ × ٥. Column B: ٠.٠٠٧ × ٠.٠٧ × ٧ × ٧ × ٧.",
+  "stem_i18n": {
+   "ar": "المطلوب هو المقارنة بين: Column A: ٠.٥ × ٥ × ٠.٥ × ٥ × ٥. Column B: ٠.٠٠٧ × ٠.٠٧ × ٧ × ٧ × ٧."
+  },
+  "options": [
+   "القيمة الأولى أكبر من الثانية",
+   "القيمة الثانية أكبر من الأولى",
+   "القيمتان متساويتان",
+   "المعطيات غير كافية"
+  ],
+  "answer_index": 0,
+  "answer_label": "A",
+  "explanation": "",
+  "difficulty": 3,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Algebraic Comparisons"
+  ]
+ },
+ {
+  "id": "ARB_Q34",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 1,
+  "topic": "Algebraic Comparisons",
+  "topic_id": "ch1.dec",
+  "stem": "المطلوب هو المقارنة بين: Column A: ٦/٥ - ٤/٥. Column B: ٤/٥ + ١/٥.",
+  "stem_i18n": {
+   "ar": "المطلوب هو المقارنة بين: Column A: ٦/٥ - ٤/٥. Column B: ٤/٥ + ١/٥."
+  },
+  "options": [
+   "القيمة الأولى أكبر من الثانية",
+   "القيمة الثانية أكبر من الأولى",
+   "القيمتان متساويتان",
+   "المعطيات غير كافية"
+  ],
+  "answer_index": 1,
+  "answer_label": "B",
+  "explanation": "",
+  "difficulty": 2,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Algebraic Comparisons"
+  ]
+ },
+ {
+  "id": "ARB_Q35",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 1,
+  "topic": "Algebraic Comparisons",
+  "topic_id": "ch1.dec",
+  "stem": "لدى صالح مبلغ من المال يزيد عن ٣٠٠٠ ريال، ولدى أحمد مبلغ يزيد عن ٢٠٠٠ ريال. المطلوب هو المقارنة بين: Column A: ما لدى صالح. Column B: ما لدى أحمد.",
+  "stem_i18n": {
+   "ar": "لدى صالح مبلغ من المال يزيد عن ٣٠٠٠ ريال، ولدى أحمد مبلغ يزيد عن ٢٠٠٠ ريال. المطلوب هو المقارنة بين: Column A: ما لدى صالح. Column B: ما لدى أحمد."
+  },
+  "options": [
+   "القيمة الأولى أكبر من الثانية",
+   "القيمة الثانية أكبر من الأولى",
+   "القيمتان متساويتان",
+   "المعطيات غير كافية"
+  ],
+  "answer_index": 3,
+  "answer_label": "D",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Algebraic Comparisons"
+  ]
+ },
+ {
+  "id": "ARB_Q36",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Analogy",
+  "topic_id": "ch0.intro",
+  "stem": "متسول : عفيف",
+  "stem_i18n": {
+   "ar": "متسول : عفيف"
+  },
+  "options": [
+   "محتال : مستقيم",
+   "تاجر : عامل",
+   "جندي : متريث",
+   "بخيل : شجاع"
+  ],
+  "answer_index": 0,
+  "answer_label": "A",
+  "explanation": "",
+  "difficulty": 2,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Analogy"
+  ]
+ },
+ {
+  "id": "ARB_Q37",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Closest Meaning",
+  "topic_id": "ch0.intro",
+  "stem": "حُبّ : عِشْق",
+  "stem_i18n": {
+   "ar": "حُبّ : عِشْق"
+  },
+  "options": [
+   "تهور : سرعة",
+   "كلية : جامعة",
+   "صمت : كلام",
+   "مقبول : جيد"
+  ],
+  "answer_index": 1,
+  "answer_label": "B",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Closest Meaning"
+  ]
+ },
+ {
+  "id": "ARB_Q38",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Reading Comprehension",
+  "topic_id": "ch0.intro",
+  "stem": "تشير الفقرة (١) إلى أن علم الصيدلة قديماً:",
+  "stem_i18n": {
+   "ar": "تشير الفقرة (١) إلى أن علم الصيدلة قديماً:"
+  },
+  "options": [
+   "عُرف بهذه التسمية عند علماء الطب",
+   "سماه بعلم الأدوية العلماء المسلمون",
+   "ازدهر في كنف الحضارة الإسلامية",
+   "استعان في البدء بعلم العقاقير"
+  ],
+  "answer_index": 2,
+  "answer_label": "C",
+  "explanation": "",
+  "difficulty": 3,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Reading Comprehension"
+  ]
+ },
+ {
+  "id": "ARB_Q39",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Reading Comprehension",
+  "topic_id": "ch0.intro",
+  "stem": "الضمير في كلمة \"عنه\" في الفقرة (١) يعود على:",
+  "stem_i18n": {
+   "ar": "الضمير في كلمة \"عنه\" في الفقرة (١) يعود على:"
+  },
+  "options": [
+   "علم الصيدلة",
+   "الصيدلاني",
+   "التقدم",
+   "القائم بالصيدلة"
+  ],
+  "answer_index": 0,
+  "answer_label": "A",
+  "explanation": "",
+  "difficulty": 3,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Reading Comprehension"
+  ]
+ },
+ {
+  "id": "ARB_Q40",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Reading Comprehension",
+  "topic_id": "ch0.intro",
+  "stem": "يستفاد من الفقرة (٢):",
+  "stem_i18n": {
+   "ar": "يستفاد من الفقرة (٢):"
+  },
+  "options": [
+   "استقلال علم الصيدلة عن علم الكيمياء",
+   "ضرورة مراعاة المقادير في صناعة الدواء",
+   "اتحاد مصادر إعداد الأدوية وتراكيبها",
+   "الاستغناء عن الدواء باستعمال مكوناته"
+  ],
+  "answer_index": 1,
+  "answer_label": "B",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Reading Comprehension"
+  ]
+ },
+ {
+  "id": "ARB_Q41",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Reading Comprehension",
+  "topic_id": "ch0.intro",
+  "stem": "وفقاً للفقرة (٢)، أي الآتي صحيح؟",
+  "stem_i18n": {
+   "ar": "وفقاً للفقرة (٢)، أي الآتي صحيح؟"
+  },
+  "options": [
+   "علم الصيدلة علم تطبيقي",
+   "علم النبات علم حياتي",
+   "علم الصيدلة نظري وعلم النبات تطبيقي",
+   "علم النبات وعلم الصيدلة علمان نظريان"
+  ],
+  "answer_index": 0,
+  "answer_label": "A",
+  "explanation": "",
+  "difficulty": 2,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Reading Comprehension"
+  ]
+ },
+ {
+  "id": "ARB_Q42",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Reading Comprehension",
+  "topic_id": "ch0.intro",
+  "stem": "تشير الفقرة (٣) إلى أن الأطباء:",
+  "stem_i18n": {
+   "ar": "تشير الفقرة (٣) إلى أن الأطباء:"
+  },
+  "options": [
+   "اشتغلوا بتجارة الأدوية ومواد الزينة",
+   "كانوا يمتهنون الطب وتجارة الأدوية",
+   "كانوا لا يصفون الدواء مباشرة للمريض",
+   "كانت عياداتهم معملاً أيضاً لإنتاج الأدوية"
+  ],
+  "answer_index": 3,
+  "answer_label": "D",
+  "explanation": "",
+  "difficulty": 3,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Reading Comprehension"
+  ]
+ },
+ {
+  "id": "ARB_Q43",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Reading Comprehension",
+  "topic_id": "ch0.intro",
+  "stem": "فيما يتعلق بالطب والصيدلة، نفهم من الفقرة (٤):",
+  "stem_i18n": {
+   "ar": "فيما يتعلق بالطب والصيدلة، نفهم من الفقرة (٤):"
+  },
+  "options": [
+   "أن الصيدلة أسهل من الطب",
+   "أن الطب متقدم على الصيدلة",
+   "أن الفصل بينهما أمر ضروري",
+   "أنهما متقدمان، نفس السرعة"
+  ],
+  "answer_index": 2,
+  "answer_label": "C",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Reading Comprehension"
+  ]
+ },
+ {
+  "id": "ARB_Q44",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Reading Comprehension",
+  "topic_id": "ch0.intro",
+  "stem": "تشير الفقرة (٤) إلى أن القرون الوسطى:",
+  "stem_i18n": {
+   "ar": "تشير الفقرة (٤) إلى أن القرون الوسطى:"
+  },
+  "options": [
+   "استقل فيها علم الأدوية عن علم الصيدلة",
+   "جمع فيها بين مهنة الطب وعلم الأدوية",
+   "أسهمت في صعوبة دراسة الطب والصيدلة",
+   "هي أشهر القرون في علم الطب والصيدلة"
+  ],
+  "answer_index": 1,
+  "answer_label": "B",
+  "explanation": "",
+  "difficulty": 2,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Reading Comprehension"
+  ]
+ },
+ {
+  "id": "ARB_Q45",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Reading Comprehension",
+  "topic_id": "ch0.intro",
+  "stem": "تشير الفقرة (٥) إلى أن تعدد أصناف الأدوية:",
+  "stem_i18n": {
+   "ar": "تشير الفقرة (٥) إلى أن تعدد أصناف الأدوية:"
+  },
+  "options": [
+   "يسّر الحصول على مكوناتها الأولية",
+   "سهّل تحضيرها وتقديمها عند الحاجة",
+   "أدى إلى تناقض علم الطب وعلم الصيدلة",
+   "أسهم في انفصال مهمة الطبيب عن الصيدلاني"
+  ],
+  "answer_index": 3,
+  "answer_label": "D",
+  "explanation": "",
+  "difficulty": 2,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Reading Comprehension"
+  ]
+ },
+ {
+  "id": "ARB_Q46",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Reading Comprehension",
+  "topic_id": "ch0.intro",
+  "stem": "تظهر الفقرة (٦) أن الأدوية والعقاقير الطبية:",
+  "stem_i18n": {
+   "ar": "تظهر الفقرة (٦) أن الأدوية والعقاقير الطبية:"
+  },
+  "options": [
+   "يتفوق الحيواني منها على غيره",
+   "أصّل قوانينها علماء العرب المسلمين",
+   "اشتهرت ثلاثة أسماء منها عبر التاريخ",
+   "يتشابه المفرد منها مع غيره من العقاقير"
+  ],
+  "answer_index": 1,
+  "answer_label": "B",
+  "explanation": "",
+  "difficulty": 3,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Reading Comprehension"
+  ]
+ },
+ {
+  "id": "ARB_Q47",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Reading Comprehension",
+  "topic_id": "ch0.intro",
+  "stem": "يفهم من الفقرة (٦) أن العلماء المسلمين ميزوا بين الأدوية؛ وفقاً لكونها:",
+  "stem_i18n": {
+   "ar": "يفهم من الفقرة (٦) أن العلماء المسلمين ميزوا بين الأدوية؛ وفقاً لكونها:"
+  },
+  "options": [
+   "مفردة وغير مفردة",
+   "حيوانية ونباتية",
+   "عشبية ومعدنية",
+   "أصلية وغير أصلية"
+  ],
+  "answer_index": 0,
+  "answer_label": "A",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Reading Comprehension"
+  ]
+ },
+ {
+  "id": "ARB_Q48",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Reading Comprehension",
+  "topic_id": "ch0.intro",
+  "stem": "تظهر الفقرة (٧) أن علماء العرب المسلمين:",
+  "stem_i18n": {
+   "ar": "تظهر الفقرة (٧) أن علماء العرب المسلمين:"
+  },
+  "options": [
+   "وحدوا مقار الصيدليات ومدارس الصيدلة",
+   "شاركوا التجار في افتتاح الصيدليات العامة",
+   "أنشؤوا مدارس متخصصة في علم الصيدلة",
+   "كانت لهم ثقة في تجار العقاقير والتوابل"
+  ],
+  "answer_index": 2,
+  "answer_label": "C",
+  "explanation": "",
+  "difficulty": 3,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Reading Comprehension"
+  ]
+ },
+ {
+  "id": "ARB_Q49",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 3,
+  "topic": "Geometry & Area",
+  "topic_id": "ch3.shade",
+  "stem": "في الشكل التالي، مستطيل يبلغ طوله مثُلي عرضه؛ فإذا قسّمناه إلى مثلثات متماثلة، فكم سنتمترًا مربعًا تبلغ مساحة خمسةٍ منها؟",
+  "stem_i18n": {
+   "ar": "في الشكل التالي، مستطيل يبلغ طوله مثُلي عرضه؛ فإذا قسّمناه إلى مثلثات متماثلة، فكم سنتمترًا مربعًا تبلغ مساحة خمسةٍ منها؟"
+  },
+  "options": [
+   "١٠",
+   "١٥",
+   "٢٠",
+   "٢٥"
+  ],
+  "answer_index": 0,
+  "answer_label": "A",
+  "explanation": "",
+  "difficulty": 3,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Geometry & Area"
+  ]
+ },
+ {
+  "id": "ARB_Q50",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 2,
+  "topic": "Percentages & Ratios",
+  "topic_id": "ch2.pct",
+  "stem": "في أحد مصانع الألبان، يُستَخرَج من كل ٥٠ لترًا من الحليب ٣ كجم من الزبدة، فكم لترًا نحتاج للحصول على ٢١ كجم من الزبدة؟",
+  "stem_i18n": {
+   "ar": "في أحد مصانع الألبان، يُستَخرَج من كل ٥٠ لترًا من الحليب ٣ كجم من الزبدة، فكم لترًا نحتاج للحصول على ٢١ كجم من الزبدة؟"
+  },
+  "options": [
+   "٣٢٠",
+   "٣٥٠",
+   "٤٢٠",
+   "٤٥٠"
+  ],
+  "answer_index": 2,
+  "answer_label": "C",
+  "explanation": "",
+  "difficulty": 2,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Percentages & Ratios"
+  ]
+ },
+ {
+  "id": "ARB_Q51",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 1,
+  "topic": "Algebraic Comparisons",
+  "topic_id": "ch1.dec",
+  "stem": "إذا كانت: (ل - ٢)/(ل - ٤) = ١ - ل صفرًا، فما قيمة ل؟",
+  "stem_i18n": {
+   "ar": "إذا كانت: (ل - ٢)/(ل - ٤) = ١ - ل صفرًا، فما قيمة ل؟"
+  },
+  "options": [
+   "٥-",
+   "٤-",
+   "٣-",
+   "٢-"
+  ],
+  "answer_index": 2,
+  "answer_label": "C",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Algebraic Comparisons"
+  ]
+ },
+ {
+  "id": "ARB_Q52",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 2,
+  "topic": "Percentages & Ratios",
+  "topic_id": "ch2.pct",
+  "stem": "إذا كانت ٦٠ درجة تمثل ٨٠٪ من الدرجة النهائية لنتيجة اختبار الأحياء، فما مقدار الدرجة النهائية؟",
+  "stem_i18n": {
+   "ar": "إذا كانت ٦٠ درجة تمثل ٨٠٪ من الدرجة النهائية لنتيجة اختبار الأحياء، فما مقدار الدرجة النهائية؟"
+  },
+  "options": [
+   "٧٧",
+   "٧٥",
+   "٧٢",
+   "٧٠"
+  ],
+  "answer_index": 2,
+  "answer_label": "C",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Percentages & Ratios"
+  ]
+ },
+ {
+  "id": "ARB_Q53",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 3,
+  "topic": "Geometry & Area",
+  "topic_id": "ch3.shade",
+  "stem": "في الشكل التالي، ما قيمة س؟",
+  "stem_i18n": {
+   "ar": "في الشكل التالي، ما قيمة س؟"
+  },
+  "options": [
+   "٤٥",
+   "٦٠",
+   "٧٥",
+   "١٠٥"
+  ],
+  "answer_index": 1,
+  "answer_label": "B",
+  "explanation": "",
+  "difficulty": 3,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Geometry & Area"
+  ]
+ },
+ {
+  "id": "ARB_Q54",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 1,
+  "topic": "Algebraic Comparisons",
+  "topic_id": "ch1.dec",
+  "stem": "إذا كان عُمْر محمد يبلغ نصف عُمْر سعد، وعمر سعد يبلغ ثلاثة أمثال عُمر فهد، فما نسبة عُمْر فهد إلى عُمْر محمد؟",
+  "stem_i18n": {
+   "ar": "إذا كان عُمْر محمد يبلغ نصف عُمْر سعد، وعمر سعد يبلغ ثلاثة أمثال عُمر فهد، فما نسبة عُمْر فهد إلى عُمْر محمد؟"
+  },
+  "options": [
+   "٢",
+   "٣/٢",
+   "٢/٣",
+   "١/٢"
+  ],
+  "answer_index": 2,
+  "answer_label": "C",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Algebraic Comparisons"
+  ]
+ },
+ {
+  "id": "ARB_Q55",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 1,
+  "topic": "Algebraic Comparisons",
+  "topic_id": "ch1.dec",
+  "stem": "إذا كان: ١/(٣ل+١) = ١/(٣ل+١)، فإن ل تساوي:",
+  "stem_i18n": {
+   "ar": "إذا كان: ١/(٣ل+١) = ١/(٣ل+١)، فإن ل تساوي:"
+  },
+  "options": [
+   "١-",
+   "صفرًا",
+   "١",
+   "٢"
+  ],
+  "answer_index": 1,
+  "answer_label": "B",
+  "explanation": "",
+  "difficulty": 3,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Algebraic Comparisons"
+  ]
+ },
+ {
+  "id": "ARB_Q56",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 1,
+  "topic": "Algebraic Comparisons",
+  "topic_id": "ch1.dec",
+  "stem": "ما العدد الذي إذا طرحنا منه ٧ كان ثلاثة أمثاله الناتج ٣٢؟",
+  "stem_i18n": {
+   "ar": "ما العدد الذي إذا طرحنا منه ٧ كان ثلاثة أمثاله الناتج ٣٢؟"
+  },
+  "options": [
+   "٨",
+   "٩",
+   "١٣",
+   "١٤"
+  ],
+  "answer_index": 2,
+  "answer_label": "C",
+  "explanation": "",
+  "difficulty": 3,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Algebraic Comparisons"
+  ]
+ },
+ {
+  "id": "ARB_Q57",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 2,
+  "topic": "Percentages & Ratios",
+  "topic_id": "ch2.pct",
+  "stem": "شركة استثمارية تعطي أرباحًا بواقع ١٥٪ من قيمة السهم، فإذا بلغ ربح السهم ١٨ ريالاً، فكم ريالاً قيمة السهم؟",
+  "stem_i18n": {
+   "ar": "شركة استثمارية تعطي أرباحًا بواقع ١٥٪ من قيمة السهم، فإذا بلغ ربح السهم ١٨ ريالاً، فكم ريالاً قيمة السهم؟"
+  },
+  "options": [
+   "١٠٠",
+   "١٢٠",
+   "١٥٠",
+   "١٨٠"
+  ],
+  "answer_index": 2,
+  "answer_label": "C",
+  "explanation": "",
+  "difficulty": 3,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Percentages & Ratios"
+  ]
+ },
+ {
+  "id": "ARB_Q58",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 1,
+  "topic": "Algebraic Comparisons",
+  "topic_id": "ch1.dec",
+  "stem": "إذا كانت: ٩^(ل/٢) = ٢٧، فما قيمة ل؟",
+  "stem_i18n": {
+   "ar": "إذا كانت: ٩^(ل/٢) = ٢٧، فما قيمة ل؟"
+  },
+  "options": [
+   "١",
+   "٢",
+   "٣",
+   "٤"
+  ],
+  "answer_index": 2,
+  "answer_label": "C",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Algebraic Comparisons"
+  ]
+ },
+ {
+  "id": "ARB_Q59",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 0,
+  "topic": "Counting & Combinatorics",
+  "topic_id": "ch0.stats",
+  "stem": "إذا تحرك عقربا الساعة من الرابعة مساءً إلى السابعة والنصف مساءً، فما مجموع الدرجات التي قطعها عقرب الدقائق أثناء ذلك؟",
+  "stem_i18n": {
+   "ar": "إذا تحرك عقربا الساعة من الرابعة مساءً إلى السابعة والنصف مساءً، فما مجموع الدرجات التي قطعها عقرب الدقائق أثناء ذلك؟"
+  },
+  "options": [
+   "١٢٦٠",
+   "١٢٠٠",
+   "١١٢٠",
+   "١٠٨٠"
+  ],
+  "answer_index": 0,
+  "answer_label": "A",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Counting & Combinatorics"
+  ]
+ },
+ {
+  "id": "ARB_Q60",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Contextual Error",
+  "topic_id": "ch0.intro",
+  "stem": "يجب أن تكون عندنا **مقبرة** جاهزة فيها **لنزرع** أخطاء **الأصدقاء**.",
+  "stem_i18n": {
+   "ar": "يجب أن تكون عندنا **مقبرة** جاهزة فيها **لنزرع** أخطاء **الأصدقاء**."
+  },
+  "options": [
+   "مقبرة",
+   "لنزرع",
+   "الأصدقاء",
+   "أخطاء"
+  ],
+  "answer_index": 1,
+  "answer_label": "B",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Contextual Error"
+  ]
+ },
+ {
+  "id": "ARB_Q61",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Contextual Error",
+  "topic_id": "ch0.intro",
+  "stem": "استثمر ما لديك من مواهب فلو لم **يغرد** في الغابة من **الطيور** إلا أحسنها صوتًا للأها **الضجيج**.",
+  "stem_i18n": {
+   "ar": "استثمر ما لديك من مواهب فلو لم **يغرد** في الغابة من **الطيور** إلا أحسنها صوتًا للأها **الضجيج**."
+  },
+  "options": [
+   "الطيور",
+   "يغرد",
+   "صوتًا",
+   "الضجيج"
+  ],
+  "answer_index": 3,
+  "answer_label": "D",
+  "explanation": "",
+  "difficulty": 2,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Contextual Error"
+  ]
+ },
+ {
+  "id": "ARB_Q62",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Contextual Error",
+  "topic_id": "ch0.intro",
+  "stem": "ينام **المجتهد** على وسادة من **القطن** فيستريح، أما **الكسول**، فلن يجد الراحة ولو على وسادة من **الريش**.",
+  "stem_i18n": {
+   "ar": "ينام **المجتهد** على وسادة من **القطن** فيستريح، أما **الكسول**، فلن يجد الراحة ولو على وسادة من **الريش**."
+  },
+  "options": [
+   "المجتهد",
+   "القطن",
+   "الكسول",
+   "الريش"
+  ],
+  "answer_index": 1,
+  "answer_label": "B",
+  "explanation": "",
+  "difficulty": 2,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Contextual Error"
+  ]
+ },
+ {
+  "id": "ARB_Q63",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Contextual Error",
+  "topic_id": "ch0.intro",
+  "stem": "كوخ **تضحك** في ضيقته **خير** من قصر **تفرح** في أرجائه.",
+  "stem_i18n": {
+   "ar": "كوخ **تضحك** في ضيقته **خير** من قصر **تفرح** في أرجائه."
+  },
+  "options": [
+   "تضحك",
+   "ضيقته",
+   "خير",
+   "تفرح"
+  ],
+  "answer_index": 3,
+  "answer_label": "D",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Contextual Error"
+  ]
+ },
+ {
+  "id": "ARB_Q64",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Sentence Completion",
+  "topic_id": "ch0.intro",
+  "stem": "دعاء الوالدين أعظم.........السعادة، فاغتنمه ببرهما ليكون.........لك من كل مكروه.",
+  "stem_i18n": {
+   "ar": "دعاء الوالدين أعظم.........السعادة، فاغتنمه ببرهما ليكون.........لك من كل مكروه."
+  },
+  "options": [
+   "أبواب – عملاً",
+   "أسباب – ثروة",
+   "موجبات – استباقاً",
+   "دواعي – حصناً"
+  ],
+  "answer_index": 3,
+  "answer_label": "D",
+  "explanation": "",
+  "difficulty": 3,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Sentence Completion"
+  ]
+ },
+ {
+  "id": "ARB_Q65",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Sentence Completion",
+  "topic_id": "ch0.intro",
+  "stem": "الرجل العاقل ينشد......... الحسنة لعمله؛ فلا تُقدِمُ على عمل سيّئ فتكون عواقبه ......... .",
+  "stem_i18n": {
+   "ar": "الرجل العاقل ينشد......... الحسنة لعمله؛ فلا تُقدِمُ على عمل سيّئ فتكون عواقبه ......... ."
+  },
+  "options": [
+   "العاقبة – وخيمة",
+   "المزايا – خيالية",
+   "الصفة – متنامية",
+   "العافية – متتابعة"
+  ],
+  "answer_index": 0,
+  "answer_label": "A",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Sentence Completion"
+  ]
+ },
+ {
+  "id": "ARB_Q66",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Sentence Completion",
+  "topic_id": "ch0.intro",
+  "stem": "أفاد تقدم العلوم العصبية النفسية الموقين على التغلب على مشكلاتهم، وسمح باستخدام طرق جديدة للتعلّم قادرة على.........سلوكهم وتوجيه تصرفاتهم، .......... .",
+  "stem_i18n": {
+   "ar": "أفاد تقدم العلوم العصبية النفسية الموقين على التغلب على مشكلاتهم، وسمح باستخدام طرق جديدة للتعلّم قادرة على.........سلوكهم وتوجيه تصرفاتهم، .......... ."
+  },
+  "options": [
+   "تنوع – وتقبلهم",
+   "ضبط – وتسارعهم",
+   "تعديل – وتأهيلهم",
+   "مجاراة – واحتضانهم"
+  ],
+  "answer_index": 2,
+  "answer_label": "C",
+  "explanation": "",
+  "difficulty": 3,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Sentence Completion"
+  ]
+ },
+ {
+  "id": "ARB_Q67",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Sentence Completion",
+  "topic_id": "ch0.intro",
+  "stem": "صفة الحلم من أشهر الصفات التي اتسم بها العرب، وتفاخروا بها، لأنها صفة.........المرء في قومه، وتكسبه.........عليهم.",
+  "stem_i18n": {
+   "ar": "صفة الحلم من أشهر الصفات التي اتسم بها العرب، وتفاخروا بها، لأنها صفة.........المرء في قومه، وتكسبه.........عليهم."
+  },
+  "options": [
+   "تُسعد – العزة",
+   "تُعُلي – السعادة",
+   "تميّز – الثراء",
+   "تَرْفع – السيادة"
+  ],
+  "answer_index": 3,
+  "answer_label": "D",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Sentence Completion"
+  ]
+ },
+ {
+  "id": "ARB_Q68",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Sentence Completion",
+  "topic_id": "ch0.intro",
+  "stem": "الغرب ينشر ثقافة.........جعلت كلّ شيء أمام الطفل..........؛ مما جعل الأطفال يفقدون براءة الطفولة في وقت مبكر.",
+  "stem_i18n": {
+   "ar": "الغرب ينشر ثقافة.........جعلت كلّ شيء أمام الطفل..........؛ مما جعل الأطفال يفقدون براءة الطفولة في وقت مبكر."
+  },
+  "options": [
+   "إباحية – مكشوفًا",
+   "جديدة – معقدًا",
+   "عصرية – غامضًا",
+   "إلكترونية – ساذجًا"
+  ],
+  "answer_index": 0,
+  "answer_label": "A",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Sentence Completion"
+  ]
+ },
+ {
+  "id": "ARB_Q69",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Analogy",
+  "topic_id": "ch0.intro",
+  "stem": "صلاة : ركوع",
+  "stem_i18n": {
+   "ar": "صلاة : ركوع"
+  },
+  "options": [
+   "صوم : إفطار",
+   "عمرة : رمضان",
+   "زكاة : ذهب",
+   "حج : طواف"
+  ],
+  "answer_index": 3,
+  "answer_label": "D",
+  "explanation": "",
+  "difficulty": 3,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Analogy"
+  ]
+ },
+ {
+  "id": "ARB_Q70",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Analogy",
+  "topic_id": "ch0.intro",
+  "stem": "عِزّة : ذِلّة",
+  "stem_i18n": {
+   "ar": "عِزّة : ذِلّة"
+  },
+  "options": [
+   "مُقْدِم : محجم",
+   "ليل : سُبات",
+   "قراءة : كتابة",
+   "قلب : رِثّة"
+  ],
+  "answer_index": 0,
+  "answer_label": "A",
+  "explanation": "",
+  "difficulty": 3,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Analogy"
+  ]
+ },
+ {
+  "id": "ARB_Q71",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Analogy",
+  "topic_id": "ch0.intro",
+  "stem": "ناسخ : مخطوطة",
+  "stem_i18n": {
+   "ar": "ناسخ : مخطوطة"
+  },
+  "options": [
+   "حارس : بيئة",
+   "خياط : ثوب",
+   "سبّاك : ماسورة",
+   "نحات : إزميل"
+  ],
+  "answer_index": 1,
+  "answer_label": "B",
+  "explanation": "",
+  "difficulty": 2,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Analogy"
+  ]
+ },
+ {
+  "id": "ARB_Q72",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Analogy",
+  "topic_id": "ch0.intro",
+  "stem": "مِبْضَع : جرّاح",
+  "stem_i18n": {
+   "ar": "مِبْضَع : جرّاح"
+  },
+  "options": [
+   "منجل : مزارع",
+   "سرير : مريض",
+   "مدفع : حرب",
+   "مقص : قماش"
+  ],
+  "answer_index": 0,
+  "answer_label": "A",
+  "explanation": "",
+  "difficulty": 2,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Analogy"
+  ]
+ },
+ {
+  "id": "ARB_Q73",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 1,
+  "topic": "Algebraic Comparisons",
+  "topic_id": "ch1.dec",
+  "stem": "إذا كان عددٌ ما يقبل القسمة على ٦ و ٨، فإنه يجب أن يقبل القسمة على:",
+  "stem_i18n": {
+   "ar": "إذا كان عددٌ ما يقبل القسمة على ٦ و ٨، فإنه يجب أن يقبل القسمة على:"
+  },
+  "options": [
+   "١٢",
+   "١٨",
+   "٣٢",
+   "٣٦"
+  ],
+  "answer_index": 0,
+  "answer_label": "A",
+  "explanation": "",
+  "difficulty": 2,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Algebraic Comparisons"
+  ]
+ },
+ {
+  "id": "ARB_Q74",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 3,
+  "topic": "Geometry & Area",
+  "topic_id": "ch3.shade",
+  "stem": "يريد شخص أن يغطي جداراً بورق زينة، فإذا كان ارتفاع الجدار ٨م وطوله ثلاثة أمثال ارتفاعه، وكانت أبعاد لفّة الورق ٢م × ٨م؛ فكم لفّة ورق يحتاج لتغطية الجدار؟",
+  "stem_i18n": {
+   "ar": "يريد شخص أن يغطي جداراً بورق زينة، فإذا كان ارتفاع الجدار ٨م وطوله ثلاثة أمثال ارتفاعه، وكانت أبعاد لفّة الورق ٢م × ٨م؛ فكم لفّة ورق يحتاج لتغطية الجدار؟"
+  },
+  "options": [
+   "٣٢",
+   "٢٤",
+   "١٨",
+   "١٢"
+  ],
+  "answer_index": 3,
+  "answer_label": "D",
+  "explanation": "",
+  "difficulty": 3,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Geometry & Area"
+  ]
+ },
+ {
+  "id": "ARB_Q75",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 1,
+  "topic": "Sequences",
+  "topic_id": "ch1.frac",
+  "stem": "ما الحد الخامس في متتابعة الأعداد الآتية: ٧ ، ١٨ ، ٢٩ ، ٤٠ ، ...؟",
+  "stem_i18n": {
+   "ar": "ما الحد الخامس في متتابعة الأعداد الآتية: ٧ ، ١٨ ، ٢٩ ، ٤٠ ، ...؟"
+  },
+  "options": [
+   "٥١",
+   "٥٩",
+   "٦١",
+   "٦٩"
+  ],
+  "answer_index": 0,
+  "answer_label": "A",
+  "explanation": "",
+  "difficulty": 2,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Sequences"
+  ]
+ },
+ {
+  "id": "ARB_Q76",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 2,
+  "topic": "Percentages & Ratios",
+  "topic_id": "ch2.pct",
+  "stem": "اشترى يوسف ثلاث وحدات تخزين بيانات للحاسب الآلي: الأولى بالسعر الأصلي، والثانية بخصم ٢٥٪ منه، والثالثة بخصم ٥٠٪ منه؛ فإذا بلغ إجمالي القيمة التي دفعها يوسف ٨١٠ ريالات، فما سعر الوحدة الأصلي؟",
+  "stem_i18n": {
+   "ar": "اشترى يوسف ثلاث وحدات تخزين بيانات للحاسب الآلي: الأولى بالسعر الأصلي، والثانية بخصم ٢٥٪ منه، والثالثة بخصم ٥٠٪ منه؛ فإذا بلغ إجمالي القيمة التي دفعها يوسف ٨١٠ ريالات، فما سعر الوحدة الأصلي؟"
+  },
+  "options": [
+   "٢٤٠",
+   "٢٧٠",
+   "٣٢٠",
+   "٣٦٠"
+  ],
+  "answer_index": 3,
+  "answer_label": "D",
+  "explanation": "",
+  "difficulty": 3,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Percentages & Ratios"
+  ]
+ },
+ {
+  "id": "ARB_Q78",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 3,
+  "topic": "Geometry & Area",
+  "topic_id": "ch3.shade",
+  "stem": "إذا كان طول أحد ضلعي مثلث ٥سم، وطول الضلع الثاني ٩سم، فأي الآتي لا يمكن أن يكون طولاً للضلع الثالث؟",
+  "stem_i18n": {
+   "ar": "إذا كان طول أحد ضلعي مثلث ٥سم، وطول الضلع الثاني ٩سم، فأي الآتي لا يمكن أن يكون طولاً للضلع الثالث؟"
+  },
+  "options": [
+   "٤",
+   "٧",
+   "١٢",
+   "١٣"
+  ],
+  "answer_index": 3,
+  "answer_label": "D",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Geometry & Area"
+  ]
+ },
+ {
+  "id": "ARB_Q79",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 2,
+  "topic": "Percentages & Ratios",
+  "topic_id": "ch2.pct",
+  "stem": "إذا أنقصنا بُعْدَيْ مستطيل بنسبة ١٠٪، فما نسبة النقص في مساحته؟",
+  "stem_i18n": {
+   "ar": "إذا أنقصنا بُعْدَيْ مستطيل بنسبة ١٠٪، فما نسبة النقص في مساحته؟"
+  },
+  "options": [
+   "٢٥٪",
+   "٢٣٪",
+   "٢١٪",
+   "١٩٪"
+  ],
+  "answer_index": 3,
+  "answer_label": "D",
+  "explanation": "",
+  "difficulty": 3,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Percentages & Ratios"
+  ]
+ },
+ {
+  "id": "ARB_Q80",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 1,
+  "topic": "Algebraic Comparisons",
+  "topic_id": "ch1.dec",
+  "stem": "إذا كانت: ٣^م = ٨١ ، و٨ × م = ٩٦، المطلوب هو المقارنة بين: Column A: م. Column B: هـ.",
+  "stem_i18n": {
+   "ar": "إذا كانت: ٣^م = ٨١ ، و٨ × م = ٩٦، المطلوب هو المقارنة بين: Column A: م. Column B: هـ."
+  },
+  "options": [
+   "القيمة الأولى أكبر من الثانية",
+   "القيمة الثانية أكبر من الأولى",
+   "القيمتان متساويتان",
+   "المعطيات غير كافية"
+  ],
+  "answer_index": 1,
+  "answer_label": "B",
+  "explanation": "",
+  "difficulty": 2,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Algebraic Comparisons"
+  ]
+ },
+ {
+  "id": "ARB_Q81",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 1,
+  "topic": "Algebraic Comparisons",
+  "topic_id": "ch1.dec",
+  "stem": "إذا كانت س > ٠ ، و ص > ٠، المطلوب هو المقارنة بين: Column A: ٢س − ص. Column B: س + ٢ص.",
+  "stem_i18n": {
+   "ar": "إذا كانت س > ٠ ، و ص > ٠، المطلوب هو المقارنة بين: Column A: ٢س − ص. Column B: س + ٢ص."
+  },
+  "options": [
+   "القيمة الأولى أكبر من الثانية",
+   "القيمة الثانية أكبر من الأولى",
+   "القيمتان متساويتان",
+   "المعطيات غير كافية"
+  ],
+  "answer_index": 3,
+  "answer_label": "D",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Algebraic Comparisons"
+  ]
+ },
+ {
+  "id": "ARB_Q82",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 1,
+  "topic": "Algebraic Comparisons",
+  "topic_id": "ch1.dec",
+  "stem": "المطلوب هو المقارنة بين: Column A: ٢/(٢ + √٥). Column B: ٢/١.",
+  "stem_i18n": {
+   "ar": "المطلوب هو المقارنة بين: Column A: ٢/(٢ + √٥). Column B: ٢/١."
+  },
+  "options": [
+   "القيمة الأولى أكبر من الثانية",
+   "القيمة الثانية أكبر من الأولى",
+   "القيمتان متساويتان",
+   "المعطيات غير كافية"
+  ],
+  "answer_index": 1,
+  "answer_label": "B",
+  "explanation": "",
+  "difficulty": 3,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Algebraic Comparisons"
+  ]
+ },
+ {
+  "id": "ARB_Q83",
+  "lang": "ar",
+  "section": "quantitative",
+  "chapter": 1,
+  "topic": "Algebraic Comparisons",
+  "topic_id": "ch1.dec",
+  "stem": "خزان ماء، استهلك منه في اليوم الأول ١/٣ ما فيه، واستهلك في اليوم الثاني ربع المتبقي، وفي اليوم الثالث استهلك المتبقي. المطلوب هو المقارنة بين: Column A: استهلاك اليومين الأولين. Column B: استهلاك اليوم الثالث.",
+  "stem_i18n": {
+   "ar": "خزان ماء، استهلك منه في اليوم الأول ١/٣ ما فيه، واستهلك في اليوم الثاني ربع المتبقي، وفي اليوم الثالث استهلك المتبقي. المطلوب هو المقارنة بين: Column A: استهلاك اليومين الأولين. Column B: استهلاك اليوم الثالث."
+  },
+  "options": [
+   "القيمة الأولى أكبر من الثانية",
+   "القيمة الثانية أكبر من الأولى",
+   "القيمتان متساويتان",
+   "المعطيات غير كافية"
+  ],
+  "answer_index": 2,
+  "answer_label": "C",
+  "explanation": "",
+  "difficulty": 2,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Algebraic Comparisons"
+  ]
+ },
+ {
+  "id": "ARB_Q84",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Analogy",
+  "topic_id": "ch0.intro",
+  "stem": "مفاوضة : نقاش",
+  "stem_i18n": {
+   "ar": "مفاوضة : نقاش"
+  },
+  "options": [
+   "اجتماع : اختيار",
+   "مقاطعة : استنكار",
+   "فهم : إنصات",
+   "تسوية : استواء"
+  ],
+  "answer_index": 1,
+  "answer_label": "B",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Analogy"
+  ]
+ },
+ {
+  "id": "ARB_Q85",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Reading Comprehension",
+  "topic_id": "ch0.intro",
+  "stem": "تدل الفقرة (١) على أن التحديات تواجه:",
+  "stem_i18n": {
+   "ar": "تدل الفقرة (١) على أن التحديات تواجه:"
+  },
+  "options": [
+   "لغات شعوب العالم الثالث",
+   "اللغة العربية والثقافة الإسلامية",
+   "كلّ لغة ذات صلة باللغات الأخرى",
+   "أيّ لغة تحمل تعاليم وشرائع سماوية"
+  ],
+  "answer_index": 2,
+  "answer_label": "C",
+  "explanation": "",
+  "difficulty": 3,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Reading Comprehension"
+  ]
+ },
+ {
+  "id": "ARB_Q86",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Reading Comprehension",
+  "topic_id": "ch0.intro",
+  "stem": "نستنتج من الفقرة (١) أن السعي إلى إذابة اللغة يعتبر تعدياً على:",
+  "stem_i18n": {
+   "ar": "نستنتج من الفقرة (١) أن السعي إلى إذابة اللغة يعتبر تعدياً على:"
+  },
+  "options": [
+   "سهولة الاتصال بالآخرين",
+   "أساس من أسس الثقافة",
+   "تمازج اللغات وتلاقح الثقافات",
+   "رمز التقارب بين الشعوب الشرقية"
+  ],
+  "answer_index": 1,
+  "answer_label": "B",
+  "explanation": "",
+  "difficulty": 2,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Reading Comprehension"
+  ]
+ },
+ {
+  "id": "ARB_Q87",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Reading Comprehension",
+  "topic_id": "ch0.intro",
+  "stem": "كانت أوضاع اللغة العربية في جزيرة العرب قبل الإسلام أفضل من وضعها في العصور المتأخرة، كما تشير الفقرة (٢)، وذلك لأن العرب:",
+  "stem_i18n": {
+   "ar": "كانت أوضاع اللغة العربية في جزيرة العرب قبل الإسلام أفضل من وضعها في العصور المتأخرة، كما تشير الفقرة (٢)، وذلك لأن العرب:"
+  },
+  "options": [
+   "كانوا متقوقعين على أنفسهم",
+   "كانوا يستوطنون وسط جزيرة العرب",
+   "كانت لهم هيمنة لغوية على جيرانهم",
+   "كانوا شبه منعزلين عن الأقوام المجاورين"
+  ],
+  "answer_index": 3,
+  "answer_label": "D",
+  "explanation": "",
+  "difficulty": 3,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Reading Comprehension"
+  ]
+ },
+ {
+  "id": "ARB_Q88",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Reading Comprehension",
+  "topic_id": "ch0.intro",
+  "stem": "استجدّت تحديات على اللغة العربية في العصر الحاضر، أفرزتها العولمة، وتتمثل تلك التحديات كما يظهر من الفقرة (٣) في:",
+  "stem_i18n": {
+   "ar": "استجدّت تحديات على اللغة العربية في العصر الحاضر، أفرزتها العولمة، وتتمثل تلك التحديات كما يظهر من الفقرة (٣) في:"
+  },
+  "options": [
+   "أهمية اللغة والشغف بما هو أجنبي",
+   "استقطاب بعض الألفاظ غير العربية",
+   "التأثيرات الإعلامية، والمنافع المادية",
+   "نشر العلوم باللغة الإنجليزية"
+  ],
+  "answer_index": 2,
+  "answer_label": "C",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Reading Comprehension"
+  ]
+ },
+ {
+  "id": "ARB_Q89",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Reading Comprehension",
+  "topic_id": "ch0.intro",
+  "stem": "بناءً على ما ورد في الفقرة (٣)، سبب استخدام اللفظ غير العربي يعود إلى:",
+  "stem_i18n": {
+   "ar": "بناءً على ما ورد في الفقرة (٣)، سبب استخدام اللفظ غير العربي يعود إلى:"
+  },
+  "options": [
+   "سعة انتشار اللفظ الأجنبي",
+   "الإعجاب بالألفاظ الأجنبية",
+   "ضرورة الاتصال بالأجنبي",
+   "سهولة اللفظ الأجنبي"
+  ],
+  "answer_index": 1,
+  "answer_label": "B",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Reading Comprehension"
+  ]
+ },
+ {
+  "id": "ARB_Q90",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Reading Comprehension",
+  "topic_id": "ch0.intro",
+  "stem": "فيما يتعلق بالحفاظ على اللغة العربية؛ نستطيع أن نستخلص من الفقرة (٤):",
+  "stem_i18n": {
+   "ar": "فيما يتعلق بالحفاظ على اللغة العربية؛ نستطيع أن نستخلص من الفقرة (٤):"
+  },
+  "options": [
+   "وجود موقف إيجابي عام",
+   "عدم وجود أي موقف سلبي منها",
+   "تشجيع الدول العربية على تكوين مجامع لغوية",
+   "قيام جهود جيدة في بعض الدول العربية"
+  ],
+  "answer_index": 3,
+  "answer_label": "D",
+  "explanation": "",
+  "difficulty": 3,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Reading Comprehension"
+  ]
+ },
+ {
+  "id": "ARB_Q91",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Reading Comprehension",
+  "topic_id": "ch0.intro",
+  "stem": "قام مجمع اللغة العربية في دمشق بدراسة الألفاظ الأجنبية الشائعة، كما تشير الفقرة (٤)، وكان الهدف من ذلك:",
+  "stem_i18n": {
+   "ar": "قام مجمع اللغة العربية في دمشق بدراسة الألفاظ الأجنبية الشائعة، كما تشير الفقرة (٤)، وكان الهدف من ذلك:"
+  },
+  "options": [
+   "وضع ألفاظ عربية مكانها",
+   "حصر تلك الألفاظ ونشرها",
+   "انتقاء الألفاظ العربية الرسمية",
+   "مقارنة الألفاظ الأجنبية بالمستخدمة"
+  ],
+  "answer_index": 0,
+  "answer_label": "A",
+  "explanation": "",
+  "difficulty": 2,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Reading Comprehension"
+  ]
+ },
+ {
+  "id": "ARB_Q92",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Reading Comprehension",
+  "topic_id": "ch0.intro",
+  "stem": "إذا أردنا استمرارية اللغة العربية، كما تشير الفقرة (٤)، فما علينا سوى:",
+  "stem_i18n": {
+   "ar": "إذا أردنا استمرارية اللغة العربية، كما تشير الفقرة (٤)، فما علينا سوى:"
+  },
+  "options": [
+   "الاستعمال الرسمي للألفاظ الجديدة",
+   "إتقان لغة أجنبية مع المحافظة على العربية",
+   "توظيفها بصورة جيدة في مختلف المجالات",
+   "إقناع الإعلام بحب اللغة للتأثير على الناس"
+  ],
+  "answer_index": 2,
+  "answer_label": "C",
+  "explanation": "",
+  "difficulty": 2,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Reading Comprehension"
+  ]
+ },
+ {
+  "id": "ARB_Q93",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Reading Comprehension",
+  "topic_id": "ch0.intro",
+  "stem": "الضمير في \"بها\" من قوله \"واستبدل بها\" في الفقرة (٤) يعود على الألفاظ:",
+  "stem_i18n": {
+   "ar": "الضمير في \"بها\" من قوله \"واستبدل بها\" في الفقرة (٤) يعود على الألفاظ:"
+  },
+  "options": [
+   "المترجمة",
+   "الأجنبية",
+   "العربية",
+   "المعربة"
+  ],
+  "answer_index": 1,
+  "answer_label": "B",
+  "explanation": "",
+  "difficulty": 3,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Reading Comprehension"
+  ]
+ },
+ {
+  "id": "ARB_Q94",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Reading Comprehension",
+  "topic_id": "ch0.intro",
+  "stem": "لفظة \"السيرورة\" كما وردت في سياق الفقرة (٤) تعني:",
+  "stem_i18n": {
+   "ar": "لفظة \"السيرورة\" كما وردت في سياق الفقرة (٤) تعني:"
+  },
+  "options": [
+   "الحركة",
+   "الصيرورة",
+   "الانتشار",
+   "التطوّر"
+  ],
+  "answer_index": 3,
+  "answer_label": "D",
+  "explanation": "",
+  "difficulty": 3,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Reading Comprehension"
+  ]
+ },
+ {
+  "id": "ARB_Q95",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Reading Comprehension",
+  "topic_id": "ch0.intro",
+  "stem": "وفقاً للفقرة (٥)، عدد الخدمات التي يمكن أن تقدمها وسائل الاتصال الحديثة للغة العربية، يبلغ:",
+  "stem_i18n": {
+   "ar": "وفقاً للفقرة (٥)، عدد الخدمات التي يمكن أن تقدمها وسائل الاتصال الحديثة للغة العربية، يبلغ:"
+  },
+  "options": [
+   "٣",
+   "٤",
+   "٥",
+   "٦"
+  ],
+  "answer_index": 1,
+  "answer_label": "B",
+  "explanation": "",
+  "difficulty": 3,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Reading Comprehension"
+  ]
+ },
+ {
+  "id": "ARB_Q96",
+  "lang": "ar",
+  "section": "verbal",
+  "chapter": 0,
+  "topic": "Reading Comprehension",
+  "topic_id": "ch0.intro",
+  "stem": "العنوان الأنسب لعموم النّص هو:",
+  "stem_i18n": {
+   "ar": "العنوان الأنسب لعموم النّص هو:"
+  },
+  "options": [
+   "اللغة العربية في العصر الحديث",
+   "العولمة وتواصل اللغات الحديثة",
+   "اللغة العربية بين الماضي والحاضر",
+   "مرونة اللغة العربية"
+  ],
+  "answer_index": 0,
+  "answer_label": "A",
+  "explanation": "",
+  "difficulty": 1,
+  "source": "official-mock-ar",
+  "year": 2026,
+  "video_url": "",
+  "tags": [
+   "Reading Comprehension"
+  ]
+ }
+]
