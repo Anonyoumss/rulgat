@@ -15,9 +15,10 @@ jobs:
         with:
           flutter-version: "3.24.x"
           channel: stable
-      - name: Build debug APK
+      - name: Scaffold Android platform + build debug APK
         working-directory: mobile
         run: |
+          flutter create --platforms=android .
           flutter pub get
           flutter build apk --debug
       - uses: actions/upload-artifact@v4
