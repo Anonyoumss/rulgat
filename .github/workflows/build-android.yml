@@ -15,6 +15,10 @@ jobs:
         with:
           flutter-version: "3.24.x"
           channel: stable
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
       - name: Scaffold Android platform + build debug APK
         working-directory: mobile
         run: |
