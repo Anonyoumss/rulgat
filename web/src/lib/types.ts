@@ -9,6 +9,8 @@ export interface Question {
   topic_id: string;
   stem: string;
   stem_i18n?: Record<string, string>;
+  /** image-based question (e.g. tiqdr bank pages) — rendered instead of stem/options text */
+  stem_image?: string;
   options: string[];
   answer_index: number;
   answer_label: string;
@@ -58,6 +60,11 @@ export interface Progress {
   delayedReports: { chapter: number; score: number; ts: number; topics: string[] }[];
   mockHistory: { date: string; score: number; total: number; pct: number }[];
   pomodoroSessions: number;
+  /** City & Garage progression — coins earned from correct answers */
+  coins: number;
+  districts: string[];                    // unlocked city district ids
+  vehicle: string;                        // scooter | sedan | sportscar | jetcar
+  upgrades: { engine: number; armor: number; nitro: number }; // levels 0-5
 }
 
 export interface Story {

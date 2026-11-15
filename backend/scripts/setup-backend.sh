@@ -22,7 +22,7 @@ fi
 # Create superuser non-interactively on first run
 if [ ! -f pb_data/data.db ]; then
   echo "[*] Creating admin superuser…"
-  ./pocketbase superuser upsert "admin@rulgat.local" "${PB_ADMIN_PASS:-$(openssl rand -hex 12)}" --dir pb_data || true
+  ./pocketbase admin create "admin@rulgat.local" "${PB_ADMIN_PASS:-$(openssl rand -hex 12)}" --dir pb_data || true
 fi
 
 # Apply JS migrations (collections/schema) — PocketBase runs *.pb.js on serve
@@ -79,3 +79,7 @@ PB_ADMIN_PASS=${PB_ADMIN_PASS:-}
 EOF
 
 echo "[✓] Backend ready. Run: cd backend/pocketbase && ./pocketbase serve --http=0.0.0.0:8090"
+
+echo "[*] Provisioning collections + importing question bank…"
+(cd .. && PB_URL="http://127.0.0.1:8090" PB_ADMIN_EMAIL="admin@rulgat.local" PB_ADMIN_PASS="${PB_ADMIN_PASS:-}" python3 backend/scripts/import_questions.py) || \
+  echo "[!] Import skipped — start PocketBase first, then run: python3 backend/scripts/import_questions.py"

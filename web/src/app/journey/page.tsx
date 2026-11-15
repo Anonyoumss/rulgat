@@ -130,6 +130,17 @@ export default function JourneyPage() {
         </div>
       </section>
 
+      {/* city & garage */}
+      <section className="card p-5 mb-5">
+        <div className="flex items-center justify-between">
+          <div>
+            <h2 className="font-bold">{t.city.title}</h2>
+            <p className="text-sm text-[var(--muted)]">🪙 {progress.coins} {t.city.coins}</p>
+          </div>
+          <Link href="/city" className="btn-primary text-xs px-4">{lang === "ar" ? "افتح" : "Open"}</Link>
+        </div>
+      </section>
+
       {/* delayed reports */}
       {progress.delayedReports.length > 0 && (
         <section className="card p-5 border-[var(--warning)]/40">

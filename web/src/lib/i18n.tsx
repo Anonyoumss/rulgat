@@ -5,7 +5,7 @@ import type { Lang } from "./types";
 
 const STR = {
   ar: {
-    appName: "رولقات | RulGAT",
+    appName: "قانون قدراتك | RulGAT",
     tagline: "أكبر عمل في تاريخ القدرات — جواز سفر القدرات",
     nav: { home: "الرئيسية", stories: "القصص", curriculum: "الأبواب", journey: "رحلتي", practice: "تدريب", mock: "محاكاة", profile: "ملفي", more: "المزيد" },
     home: {
@@ -70,6 +70,31 @@ const STR = {
       jumpToPdf: "افتح في الملخص",
     },
     stories: { title: "قصص capability", hint: "اسحب للأعلى" },
+    city: {
+      title: "المدينة والجرينج",
+      coins: "عملات",
+      districts: "أحياء المدينة",
+      garage: "الجرينج",
+      buy: "شراء",
+      owned: "تملكه",
+      locked: "مقفل",
+      upgrade: "تطوير",
+      engine: "المحرك",
+      armor: "الدرع",
+      nitro: "النيترو",
+      level: "المستوى",
+      maxed: "الحد الأقصى",
+      unlock: "افتح الحي",
+      earnHint: "اكسب عملات من كل إجابة صحيحة",
+      vehicle: "المركبة",
+      districtNames: {
+        "old-town": "البلدة القديمة",
+        "market": "السوق المركزي",
+        "airport": "حي المطار",
+        "university": "حي الجامعة",
+        "skyline": "حي الأفق",
+      } as Record<string, string>,
+    },
     practice: {
       title: "وضع التدريب",
       start: "ابدأ الجلسة",
@@ -152,7 +177,7 @@ const STR = {
     },
   },
   en: {
-    appName: "RulGAT | رولقات",
+    appName: "Qanoon Qudratak | RulGAT",
     tagline: "The biggest GAT prep ever — GAT Travel Passport",
     nav: { home: "Home", stories: "Stories", curriculum: "Chapters", journey: "My Trip", practice: "Practice", mock: "Mock", profile: "Profile", more: "More" },
     home: {
@@ -217,6 +242,31 @@ const STR = {
       jumpToPdf: "Open in summary",
     },
     stories: { title: "Capability stories", hint: "Swipe up" },
+    city: {
+      title: "City & Garage",
+      coins: "coins",
+      districts: "City districts",
+      garage: "Garage",
+      buy: "Buy",
+      owned: "Owned",
+      locked: "Locked",
+      upgrade: "Upgrade",
+      engine: "Engine",
+      armor: "Armor",
+      nitro: "Nitro",
+      level: "Lv",
+      maxed: "MAX",
+      unlock: "Unlock district",
+      earnHint: "Earn coins for every correct answer",
+      vehicle: "Vehicle",
+      districtNames: {
+        "old-town": "Old Town",
+        "market": "Central Market",
+        "airport": "Airport District",
+        "university": "University District",
+        "skyline": "Skyline District",
+      } as Record<string, string>,
+    },
     practice: {
       title: "Practice mode",
       start: "Start session",

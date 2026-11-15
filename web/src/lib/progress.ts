@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 import type { Progress, LawMark } from "./types";
+import { pushProgress } from "./sync";
 
 const KEY = "rulgat.progress.v1";
 
@@ -21,6 +22,10 @@ export const DEFAULT_PROGRESS: Progress = {
   delayedReports: [],
   mockHistory: [],
   pomodoroSessions: 0,
+  coins: 0,
+  districts: ["old-town"],
+  vehicle: "scooter",
+  upgrades: { engine: 0, armor: 0, nitro: 0 },
 };
 
 function load(): Progress {
@@ -46,7 +51,10 @@ export function useProgress() {
   }, []);
 
   useEffect(() => {
-    if (ready) localStorage.setItem(KEY, JSON.stringify(progress));
+    if (ready) {
+      localStorage.setItem(KEY, JSON.stringify(progress));
+      void pushProgress(progress); // best-effort PocketBase sync (no-op without backend)
+    }
   }, [progress, ready]);
 
   const touchStreak = useCallback((p: Progress): Progress => {
@@ -99,6 +107,7 @@ export function useProgress() {
           ...base,
           xp,
           level: Math.floor(xp / 200) + 1,
+          coins: base.coins + (correct ? 10 : 2),
           answeredQuestions: { ...p.answeredQuestions, [qid]: { correct, ts: Date.now() } },
         };
       });
@@ -118,6 +127,7 @@ export function useProgress() {
           ...base,
           xp,
           level: Math.floor(xp / 200) + 1,
+          coins: base.coins + (passed ? 150 : 30),
           stamps: passed && !base.stamps.includes(chapter) ? [...base.stamps, chapter].sort() : base.stamps,
           chapterBest: { ...base.chapterBest, [chapter]: Math.max(base.chapterBest[chapter] ?? 0, score) },
           delayedReports: passed
@@ -174,7 +184,44 @@ export function useProgress() {
   }, [touchStreak]);
 
   const recordPomodoro = useCallback(() => {
-    setProgress((p) => ({ ...p, pomodoroSessions: p.pomodoroSessions + 1, xp: p.xp + 15 }));
+    setProgress((p) => ({ ...p, pomodoroSessions: p.pomodoroSessions + 1, xp: p.xp + 15, coins: p.coins + 5 }));
+  }, []);
+
+  /** Buy a vehicle if affordable & unlocked tier order. Returns true on success. */
+  const buyVehicle = useCallback((id: string, price: number) => {
+    let ok = false;
+    setProgress((p) => {
+      const order = ["scooter", "sedan", "sportscar", "jetcar"];
+      const cur = order.indexOf(p.vehicle);
+      const next = order.indexOf(id);
+      if (next <= cur || p.coins < price) return p;
+      ok = true;
+      return { ...p, coins: p.coins - price, vehicle: id };
+    });
+    return ok;
+  }, []);
+
+  /** Buy one upgrade level (engine/armor/nitro), max 5. */
+  const buyUpgrade = useCallback((kind: "engine" | "armor" | "nitro", price: number) => {
+    let ok = false;
+    setProgress((p) => {
+      const lvl = p.upgrades[kind];
+      if (lvl >= 5 || p.coins < price) return p;
+      ok = true;
+      return { ...p, coins: p.coins - price, upgrades: { ...p.upgrades, [kind]: lvl + 1 } };
+    });
+    return ok;
+  }, []);
+
+  /** Unlock a city district (costs coins, requires previous district). */
+  const unlockDistrict = useCallback((id: string, price: number, requires: string) => {
+    let ok = false;
+    setProgress((p) => {
+      if (p.districts.includes(id) || !p.districts.includes(requires) || p.coins < price) return p;
+      ok = true;
+      return { ...p, coins: p.coins - price, districts: [...p.districts, id] };
+    });
+    return ok;
   }, []);
 
   const resetAll = useCallback(() => {
@@ -184,6 +231,7 @@ export function useProgress() {
 
   return {
     progress, ready, addXp, setPassportName, completeLesson, recordAnswer,
-    recordChallenge, recordFinalExam, setLawMark, recordMock, recordPomodoro, resetAll,
+    recordChallenge, recordFinalExam, setLawMark, recordMock, recordPomodoro,
+    buyVehicle, buyUpgrade, unlockDistrict, resetAll,
   };
 }

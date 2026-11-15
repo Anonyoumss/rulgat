@@ -35,6 +35,9 @@ export default function QuestionCard({
 
   const stem = question.stem_i18n?.[lang] || question.stem;
   const expl = question.explanation_i18n?.[lang] || question.explanation;
+  const isImageQ = !!question.stem_image;
+  const optionCount = isImageQ ? 4 : question.options.length;
+  const optionLabel = (i: number) => (isImageQ ? "" : question.options[i]);
 
   return (
     <div className={cn("card p-5", compact && "p-4")}>
@@ -42,10 +45,17 @@ export default function QuestionCard({
         <span className="chip text-xs">{question.topic}</span>
         <span className="chip text-xs">{lang === "ar" ? "ص" : "Q"} · {"★".repeat(question.difficulty)}</span>
       </div>
-      <p className="text-lg leading-relaxed font-medium mb-5 whitespace-pre-wrap">{stem}</p>
+      {isImageQ ? (
+        <div className="rounded-2xl overflow-hidden border border-[var(--border)] bg-white mb-5">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={question.stem_image} alt={question.topic} className="w-full h-auto" />
+        </div>
+      ) : (
+        <p className="text-lg leading-relaxed font-medium mb-5 whitespace-pre-wrap">{stem}</p>
+      )}
 
       <div className="flex flex-col gap-2.5">
-        {question.options.map((opt, i) => {
+        {Array.from({ length: optionCount }, (_, i) => {
           const isSel = selected === i;
           const isCorrect = i === question.answer_index;
           const showState = revealed;
@@ -72,7 +82,7 @@ export default function QuestionCard({
               >
                 {LETTERS[i]}
               </span>
-              <span className="flex-1">{opt}</span>
+              <span className="flex-1">{optionLabel(i)}</span>
               {showState && isCorrect && <CheckCircle2 className="text-[var(--success)]" size={20} />}
               {showState && isSel && !isCorrect && <XCircle className="text-[var(--danger)]" size={20} />}
             </button>
