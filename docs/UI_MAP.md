@@ -1,43 +1,49 @@
-# UI Map — RulGAT (رولقات / قانونك)
+# UI Map — RulGAT / كويز بوكس
 
-Every route and major component. Status: ✅ built · 🚧 in progress · ⬜ planned.
+Every route and major component. Keep in sync with `apps/web` (and later
+`apps/mobile`). Status: ✅ built · 🚧 in progress · ⬜ planned.
 
-## Web routes (`web/`)
+## Web routes (`apps/web`)
 | Route | Screen | Status |
 |---|---|---|
-| `/` | Home — greeting, daily plan, passport status, continue-learning | ✅ |
-| `/journey` | جواز سفر القدرات — check-in, passport stamps, departure board, delayed reports, final exam CTA | ✅ |
-| `/challenge/[chapter]` | Chapter challenge — 10 questions → stamp (≥7/10) or رحلة مؤجلة report | ✅ |
-| `/laws/[chapter]` | خريطة القوانين — numbered laws + traffic-light mastery marks | ✅ |
-| `/lesson/[id]` | Lesson: summary + test-tip + gamified questions | ✅ |
-| `/curriculum` | Chapter browser (باب زيرو → ٣) | ✅ |
-| `/stories` | Doom-scroll story feed | ✅ |
-| `/practice` | Topic-filtered drill sessions | ✅ |
-| `/pomodoro` | Focus timer → XP | ✅ |
-| `/planner` | Qudrat Compass daily plan | ✅ |
-| `/mock` | Mock-test setup | ✅ |
-| `/mock/exam` | Qiyas-style CBT interface | ✅ |
-| `/mock/results` | Score + per-question review | ✅ |
-| `/profile` | ملف الطالب — XP, streak, stamps, mastery, history | ✅ |
-| `/settings` | Language, theme, reset | ✅ |
-| `/teacher/dashboard` | لوحة المدرس — email-gated analytics (demo gate) | ✅ |
-| `/pdf` | Interactive PDF companion + QR deep-links | ⬜ |
+| `/` | Home — greeting, daily plan card, TIGDR status, continue-learning | 🚧 |
+| `/stories` | Doom-scroll story feed (vertical, swipe cards) | 🚧 |
+| `/curriculum` | Chapter browser (باب زيرو → ١ → ٢ → ٣) | 🚧 |
+| `/lesson/[id]` | Lesson player: PDF summary + gamified questions + test-tip card | 🚧 |
+| `/practice` | Question practice session (topic-filtered, instant feedback) | 🚧 |
+| `/tigdr` | TIGDR garden hub — waters, gardens, evolution | 🚧 |
+| `/tigdr/play` | Garden Water mini-game (geometric shaded-area scenes) | 🚧 |
+| `/pomodoro` | Pomodoro timer + session log | 🚧 |
+| `/planner` | Qudrat Compass daily study plan | 🚧 |
+| `/mock` | Mock-test setup (mode, duration, topics) | 🚧 |
+| `/mock/[sessionId]` | Qiyas-style CBT interface | 🚧 |
+| `/mock/[sessionId]/results` | Score + per-question review + analytics | 🚧 |
+| `/profile` | ملف الطالب — XP, streak, mastery bars, score history | 🚧 |
+| `/settings` | Language, theme, font size, account, data sync | 🚧 |
+| `/pdf` | Interactive PDF companion (reader + checkboxes + QR deep-links) | ⬜ |
 
-## Shared components (`web/src/components/`)
-`ThemeProvider`, `ProgressProvider`, `BottomNav` (floating pill, layoutId),
-`Mascot` (Tiqdr traveler SVG — placeholder pending brand art),
-`HudChips` (XP/streak/stamps), `QuestionCard`, `GeoScene` (geo-core SVG —
-kept for shaded-figure questions), `sounds.ts` (WebAudio airport cues:
-stamp/chime/announce/delay/correct/wrong/gold).
+## Shared components (`components/`)
+| Component | Purpose |
+|---|---|
+| `ThemeEngine` | light/dark animated transition, persistence |
+| `GlassSurface` / `GlassCard` | liquid-glass surfaces (backdrop-blur + specular border) |
+| `BottomNav` | floating pill nav with layoutId indicator |
+| `Mascot` | TIGDR avatar with mood states (happy/thinking/proud/sad) |
+| `XpChip`, `StreakChip`, `LevelRing` | gamification HUD |
+| `QuestionCard` | stem + 4 options + explanation reveal |
+| `GeoScene` | SVG renderer driven by `geo-core` scene specs |
+| `Timer` | countdown chip (CBT + pomodoro variants) |
+| `FontSizeControl` | A−/A+ control (CBT + reader) |
+| `Toast` | reward/toast system (glass, spring entry) |
 
-## Gamification state (`lib/progress.ts`)
-Passport: `passportName`, `boardingPassId` (RG-####), `stamps[]` (ch 0-3),
-`goldStamp`, `chapterBest`, `lawMarks` (traffic lights), `delayedReports`,
-`xp/level/streak`, `mockHistory`, `pomodoroSessions`.
-Chapter unlock rule: sequential — chapter N requires stamp N-1 (journey board
-enforces lock icons).
+## State stores (client)
+- `useProgress` — completed lessons, XP, streak, garden state (localStorage
+  + optional PocketBase sync).
+- `useI18n` — `ar`/`en` strings + RTL direction.
+- `useTheme` — theme mode.
+- `useQuestionPack` — loaded question shards (IndexedDB cache).
 
 ## Design tokens
-`web/src/app/globals.css` — OnePrep-derived palette (see
-`assets/design/oneprep-tokens.md`), liquid-glass utilities, animated
-theme transitions. Rules: `docs/UI_GUIDELINES.md`.
+All colors/spacing/radii consumed from `tailwind.config` tokens documented
+in `docs/UI_GUIDELINES.md`. OnePrep token extraction saved to
+`assets/design/oneprep-tokens.md`.

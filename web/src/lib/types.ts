@@ -41,30 +41,17 @@ export interface GeoSceneSpec {
   parts?: { kind: string; watered: boolean; ratio?: number }[];
 }
 
-export type LawMark = "green" | "yellow" | "red"; // فاهم / محتاج مراجعة / مش فاهم
-
 export interface Progress {
   xp: number;
   level: number;
   streak: number;
   lastActiveDate: string;
-  /** GAT Travel Passport (جواز سفر القدرات) */
-  passportName: string;
-  stamps: number[];              // chapter ids stamped (0-3)
-  goldStamp: boolean;            // final exam passed
-  boardingPassId: string;        // e.g. RG-0001
-  chapterBest: Record<number, number>; // chapter -> best score /10
-  lawMarks: Record<string, LawMark>;  // topic_id -> traffic light
+  water: number; // drops available to water garden
   completedLessons: string[];
   answeredQuestions: Record<string, { correct: boolean; ts: number }>;
-  delayedReports: { chapter: number; score: number; ts: number; topics: string[] }[];
+  gardenPlots: { id: string; name: string; stage: number; watered: boolean }[];
   mockHistory: { date: string; score: number; total: number; pct: number }[];
   pomodoroSessions: number;
-  /** City & Garage progression — coins earned from correct answers */
-  coins: number;
-  districts: string[];                    // unlocked city district ids
-  vehicle: string;                        // scooter | sedan | sportscar | jetcar
-  upgrades: { engine: number; armor: number; nitro: number }; // levels 0-5
 }
 
 export interface Story {

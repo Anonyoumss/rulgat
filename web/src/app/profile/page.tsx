@@ -6,7 +6,7 @@ import { useI18n } from "@/lib/i18n";
 import { QUESTIONS } from "@/lib/questions";
 import { CHAPTERS } from "@/lib/curriculum";
 import Mascot from "@/components/Mascot";
-import { Sparkles, Flame, Stamp, Trophy, BookOpen } from "lucide-react";
+import { Sparkles, Flame, Droplets, Trophy, BookOpen } from "lucide-react";
 
 export default function ProfilePage() {
   const { t, lang } = useI18n();
@@ -59,7 +59,7 @@ export default function ProfilePage() {
       {/* stat chips */}
       <div className="grid grid-cols-3 gap-3 mb-5">
         <Stat icon={<Flame size={18} className="text-[var(--warning)]" />} value={progress.streak} label={t.profile.streak} />
-        <Stat icon={<Stamp size={18} className="text-[var(--success)]" />} value={`${progress.stamps.length}/4`} label={t.journey.stamps} />
+        <Stat icon={<Droplets size={18} className="text-[var(--primary)]" />} value={progress.water} label={t.tigdr.water} />
         <Stat icon={<Trophy size={18} className="text-[var(--accent-yellow)]" />} value={progress.mockHistory.length} label={lang === "ar" ? "محاكاة" : "Mocks"} />
       </div>
 

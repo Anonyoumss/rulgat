@@ -6,61 +6,17 @@
 
 ## Current Status
 
-**TiQDR bank ingest + PocketBase live + City/Garage (2026-11-15, later):**
-
-- **Question bank:** the signed pen.tiqdr.com custom-exam link was
-  reverse-engineered (authorized use — user supplied the link). Its API
-  `api-draw-tiqdr.ahmedtamer.com/api/draw/exams` exposes `/banks` (130
-  banks, ~6,200 questions), `/topics`, `/repetition-files`, and `/generate`.
-  `/generate` returns per-exam `answers`, `questionMetadata` (topic names),
-  `videoLink`s, and an image-only PDF (no text layer).
-  `scripts/ingest_tiqdr.py` renders each question page to PNG and emits
-  schema-shaped records (`stem_image`, `answer_label`, `video_url`,
-  `pdf_page`). **9 banks ingested = 535 image-based questions**
-  (`content/questions/tiqdr-bank{1,2,4..10}.json` + page PNGs under
-  `web/public/content/images/`). Bank 3 returns "no questions with
-  answers" server-side — skipped. Remaining ~120 banks can be pulled with
-  the same script while the signed link is valid (**signature is
-  time-limited; do not commit it**).
-- **PocketBase:** `setup-backend.sh` executed — binary v0.22.10,
-  admin `admin@rulgat.local` (password in `backend/.env` / env only).
-  NOTE: PB 0.22 does not support `.pb.js` migrations, so collections are
-  provisioned via REST by `backend/scripts/import_questions.py`
-  (questions + progress + stories). **726 questions imported**
-  (191 official mocks + 535 tiqdr). Server running locally on :8090.
-- **Sync:** `web/src/lib/sync.ts` pushes the full progress blob to the
-  `progress` collection on every change when
-  `NEXT_PUBLIC_POCKETBASE_URL` is set; offline-first, localStorage stays
-  source of truth. Guest device-id until real auth.
-- **City & Garage:** `/city` — 5 districts (old-town → skyline) unlocked
-  with coins; garage vehicles scooter → sedan → sports car → jet car;
-  Engine/Armor/Nitro upgrades (5 levels each, escalating cost).
-  Correct answers award coins (+10) in `recordAnswer`, challenge pass
-  +150. Linked from `/journey`.
-- **Rebrand:** Arabic product name is now **قانون قدراتك**
-  (appName + tagline in i18n).
-- QuestionCard renders `stem_image` questions with A–D letter buttons
-  (options are printed inside the page image).
-- Build green: 18 routes incl. `/city`. `npm run build` clean.
-
-**Previous status (journey rework, 2026-11-15):** corrected spec —
-app name is **RulGAT (رولقات / قانونك)**, mascot is **Tiqdr the traveler
-boy** (passport + suitcase), gamification is the **GAT Travel Passport
-airport journey** (boarding pass, chapter stamps, delayed flights). The
-earlier garden/tiger implementation was removed. `MASTER_PROMPT.md`
-replaced with the corrected definitive spec.
-
-New routes: `/journey` (check-in + departure board + stamps + delayed
-reports + final-exam CTA), `/challenge/[chapter]` (10-question challenge
-→ stamp ≥7/10 or رحلة مؤجلة report), `/laws/[chapter]` (traffic-light
-laws map), `/teacher/dashboard` (email-gated demo analytics). Airport
-audio cues via WebAudio (`web/src/lib/sounds.ts`). Build green.
-
-Previous status: Phase 1–5 core build MOSTLY COMPLETE — web app builds
-clean, 191-question seed bank validated, Qiyas CBT mock, stories,
-pomodoro, planner, profile — all functional in demo/local mode. Flutter
-scaffold + CI workflows added. Backend provisioning script written
-(not yet executed).
+**SCOPE REVERT (2026-11-15, latest):** Per PM directive, the passport
+journey and city/garage layers were PURGED entirely — `/journey`,
+`/challenge/[chapter]`, `/laws/[chapter]`, `/city`, `/teacher/dashboard`
+deleted. **TIGDR garden gamification restored** from pre-rework commit
+(`web/src/app/tigdr`, `tigdr/play`, water-drop economy in
+`lib/progress.ts`, GeoScene engine, gardener stories). Question bank is
+now **quantitative-only**: all verbal records removed from JSON shards
+and PocketBase (622 questions remain: 87 official-mock quant + 535
+tiqdr image-bank). Arabic name stays **قانون قدراتك**; mascot is TIGDR
+the tiger again per directive. `stem_image` rendering kept for tiqdr
+banks. Build green: 17 routes incl. `/tigdr` + `/tigdr/play`.
 
 ## Phase Log
 

@@ -11,8 +11,8 @@ export const STORIES: Story[] = [
     cards: [
       {
         kind: "text",
-        body_ar: "الحديقة ليست rectangle عادية — لكنها مثالية لتعليم هندسة المساحات المظللة!",
-        body_en: "The garden isn't an ordinary rectangle — but it's perfect for teaching shaded-area geometry!",
+        body_ar: "في يوم صيفي حار، قرر رجل أن يسقي حديقته قبل سفره. لكن الحديقة ليست quadrilateral عادية…",
+        body_en: "On a hot summer day, a man decided to water his garden before traveling. But the garden isn't an ordinary shape…",
       },
       {
         kind: "text",
@@ -31,8 +31,8 @@ export const STORIES: Story[] = [
       },
       {
         kind: "text",
-        body_ar: "جرّب الآن في رحلة جواز السفر — أكمل تحدي الباب الثالث واحصل على ختمك!",
-        body_en: "Now try it on your passport journey — complete the Chapter 3 challenge and earn your stamp!",
+        body_ar: "جرّب الآن في حديقة تِجْر — TIGDR ينتظرك لتسقي الحدائق الهندسية بنفسك!",
+        body_en: "Now try it in TIGDR's garden — he awaits you to water the geometric gardens yourself!",
       },
     ],
   },
