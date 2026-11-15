@@ -10,7 +10,7 @@ const FOCUS = 25 * 60;
 const SHORT = 5 * 60;
 
 export default function PomodoroPage() {
-  const { t } = useI18n();
+  const { t, lang } = useI18n();
   const { recordPomodoro } = useProgressCtx();
   const [mode, setMode] = useState<"focus" | "break">("focus");
   const [left, setLeft] = useState(FOCUS);
@@ -70,8 +70,8 @@ export default function PomodoroPage() {
 
       {done && (
         <div className="card p-4 mb-4 animate-pop">
-          <p className="font-bold text-[var(--success)]">🎉 {t.lesson.waterEarned} +{t.home.xp}!</p>
-          <p className="text-sm text-[var(--muted)]">TIGDR got water for his garden.</p>
+          <p className="font-bold text-[var(--success)]">🎉 +15 {t.home.xp}!</p>
+          <p className="text-sm text-[var(--muted)]">{lang === "ar" ? "تقدم في رحلة جواز السفر" : "Progress on your passport journey"}.</p>
         </div>
       )}
 

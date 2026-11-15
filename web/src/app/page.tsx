@@ -7,7 +7,7 @@ import { generatePlan } from "@/lib/planner";
 import { useProgressCtx } from "@/components/ProgressProvider";
 import Mascot from "@/components/Mascot";
 import { HudChips } from "@/components/HudChips";
-import { ArrowLeft, Play, Droplets, CalendarClock, BookOpen } from "lucide-react";
+import { ArrowLeft, Play, Plane, CalendarClock, BookOpen } from "lucide-react";
 import { useI18n } from "@/lib/i18n";
 
 export default function HomePage() {
@@ -60,8 +60,8 @@ export default function HomePage() {
           <Link href="/mock" className="btn-primary">
             <Play size={18} /> {t.mock.startExam}
           </Link>
-          <Link href="/tigdr" className="btn-tonal">
-            <Droplets size={18} /> {t.home.waterTigdr}
+          <Link href="/journey" className="btn-tonal">
+            <Plane size={18} /> {t.home.waterTigdr}
           </Link>
           <Link href="/stories" className="btn-ghost">
             {t.nav.stories}

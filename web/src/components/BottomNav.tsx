@@ -3,13 +3,13 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
-import { Home, BookOpen, Gamepad2, ClipboardList, User, MoreHorizontal } from "lucide-react";
+import { Home, BookOpen, Plane, ClipboardList, User, MoreHorizontal } from "lucide-react";
 import { useI18n } from "@/lib/i18n";
 
 const ITEMS = [
   { href: "/", key: "home", icon: Home },
   { href: "/curriculum", key: "curriculum", icon: BookOpen },
-  { href: "/tigdr", key: "tigdr", icon: Gamepad2 },
+  { href: "/journey", key: "journey", icon: Plane },
   { href: "/practice", key: "practice", icon: ClipboardList },
   { href: "/profile", key: "profile", icon: User },
   { href: "/settings", key: "more", icon: MoreHorizontal },

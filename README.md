@@ -1,4 +1,4 @@
-# RulGAT — كويز بوكس / QuizBox
+# RulGAT — رولقات / Qudrat Question Compass
 
 > أكبر عمل في تاريخ القدرات — the biggest Qudrat (GAT) prep platform ever built.
 > Al-Moasser 11 (المعاصر ١١) foundation curriculum + Qiyas-style question bank +

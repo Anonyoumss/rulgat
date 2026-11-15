@@ -87,7 +87,7 @@ export default function LessonPage({ params }: { params: { id: string } }) {
         )}
       </button>
       {done && (
-        <Link href="/tigdr" className="btn-tonal w-full mt-3">
+        <Link href="/journey" className="btn-tonal w-full mt-3">
           {t.home.waterTigdr} →
         </Link>
       )}

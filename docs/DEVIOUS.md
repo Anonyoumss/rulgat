@@ -38,3 +38,18 @@ Format: `## YYYY-MM-DD — Title` → Context / Decision / Consequences.
   source (logged in HANDOFF Open Questions).
 - **Consequences:** app is fully functional on seed content; question
   count reported honestly in UI ("ت grows as bank expands").
+
+## 2026-11-15 — Rebrand & journey pivot (PM correction)
+- **Context:** PM corrected spec — name is RulGAT (رولقات / قانونك), mascot
+  is Tiqdr the traveler boy, gamification is the GAT Travel Passport airport
+  journey — NOT a garden game, NOT "QuizBox" branding.
+- **Decision:** Removed /tigdr garden routes + tiger mascot + water economy.
+  Added /journey (passport check-in, departure board, sequential chapter
+  stamps, delayed-flight reports, gold stamp), /challenge/[chapter]
+  (10-question chapter flight → stamp ≥7/10 or رحلة مؤجلة), /laws/[chapter]
+  (traffic-light laws map), /teacher/dashboard (demo email gate).
+  Airport audio cues via WebAudio (lib/sounds.ts). Progress model migrated
+  to passport fields (stamps, goldStamp, chapterBest, lawMarks,
+  delayedReports, boardingPassId).
+- **Consequences:** localStorage progress resets (schema changed); garden
+  geo-core lib retained for future shaded-figure questions.

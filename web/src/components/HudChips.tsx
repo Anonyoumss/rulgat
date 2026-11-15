@@ -1,6 +1,6 @@
 "use client";
 
-import { Flame, Droplets, Sparkles } from "lucide-react";
+import { Stamp, Flame, Sparkles } from "lucide-react";
 import { useProgressCtx } from "./ProgressProvider";
 import { useI18n } from "@/lib/i18n";
 
@@ -17,9 +17,9 @@ export function HudChips() {
         <Flame size={14} className="text-[var(--warning)]" />
         {progress.streak}
       </span>
-      <span className="chip" title={t.tigdr.water}>
-        <Droplets size={14} className="text-[var(--primary)]" />
-        {progress.water}
+      <span className="chip" title={t.journey.stamps}>
+        <Stamp size={14} className="text-[var(--success)]" />
+        {progress.stamps.length}/4
       </span>
     </div>
   );

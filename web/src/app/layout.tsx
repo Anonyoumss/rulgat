@@ -6,7 +6,7 @@ import { ProgressProvider } from "@/components/ProgressProvider";
 import BottomNav from "@/components/BottomNav";
 
 export const metadata: Metadata = {
-  title: "كويز بوكس — QuizBox | أكبر عمل في تاريخ القدرات",
+  title: "رولقات | RulGAT — أكبر عمل في تاريخ القدرات",
   description:
     "RulGAT — the biggest Qudrat (GAT) prep platform: Al-Moasser 11 curriculum, 6000+ questions, gamified learning, Qiyas-style mock tests.",
 };

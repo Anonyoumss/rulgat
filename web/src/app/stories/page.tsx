@@ -100,8 +100,8 @@ export default function StoriesPage() {
         </motion.div>
       </AnimatePresence>
 
-      <Link href="/tigdr" className="absolute top-4 end-4 z-10 chip">
-        {lang === "ar" ? "العب الحديقة" : "Play garden"} →
+      <Link href="/journey" className="absolute top-4 end-4 z-10 chip">
+        {lang === "ar" ? "ابدأ الرحلة" : "Start your trip"} →
       </Link>
     </main>
   );

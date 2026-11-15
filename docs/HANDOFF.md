@@ -1,4 +1,4 @@
-# Handoff — RulGAT / كويز بوكس
+# Handoff — RulGAT (رولقات / قانونك)
 
 > Living status document. The executing agent updates this after every milestone.
 > Format: `### Phase N — Title (status)` → bullets of what was done, then
@@ -6,11 +6,24 @@
 
 ## Current Status
 
-**Phase 1–5 (core build) — MOSTLY COMPLETE** (autonomous overnight run)
-Web app builds clean (Next.js 14, 17 routes), 191-question seed bank
-validated, TIGDR garden game, Qiyas CBT mock, stories, pomodoro, planner,
-profile — all functional in demo/local mode. Flutter scaffold + CI
-workflows added. Backend provisioning script written (not yet executed).
+**REBRAND + journey rework applied (2026-11-15):** corrected spec —
+app name is **RulGAT (رولقات / قانونك)**, mascot is **Tiqdr the traveler
+boy** (passport + suitcase), gamification is the **GAT Travel Passport
+airport journey** (boarding pass, chapter stamps, delayed flights). The
+earlier garden/tiger implementation was removed. `MASTER_PROMPT.md`
+replaced with the corrected definitive spec.
+
+New routes: `/journey` (check-in + departure board + stamps + delayed
+reports + final-exam CTA), `/challenge/[chapter]` (10-question challenge
+→ stamp ≥7/10 or رحلة مؤجلة report), `/laws/[chapter]` (traffic-light
+laws map), `/teacher/dashboard` (email-gated demo analytics). Airport
+audio cues via WebAudio (`web/src/lib/sounds.ts`). Build green.
+
+Previous status: Phase 1–5 core build MOSTLY COMPLETE — web app builds
+clean, 191-question seed bank validated, Qiyas CBT mock, stories,
+pomodoro, planner, profile — all functional in demo/local mode. Flutter
+scaffold + CI workflows added. Backend provisioning script written
+(not yet executed).
 
 ## Phase Log
 
@@ -84,21 +97,24 @@ workflows added. Backend provisioning script written (not yet executed).
 2. Are the Al-Moasser 11 PDFs selectable text or scanned images?
 3. Final branding: "كويز بوكس" vs "RulGAT" vs "Qudrat Question Compass"?
 4. Latin digits vs Arabic-Indic digits in the UI?
-5. TIGDR mascot: tiqdr.com scrape yielded no obvious mascot file on the
-   homepage — need the asset URL or approval to generate placeholder art.
+5. Tiqdr mascot: official cartoon-boy art (passport+suitcase) needed —
+   current SVG is an original placeholder.
 6. Local-only progress OK for v1, or must accounts sync on day one?
 7. Mock-test reference: QIYAS.com, E-TEC, or both skins?
 8. Backend hosting target for PocketBase (local/VPS/cloud free tier)?
 
 ## Known Gaps
-- Question bank is a seed (191 questions), not 6,000 — content pipeline is
-  ready but bulk ingestion awaits PM source.
+- Question bank is a seed (191 questions), not 975+/6,000 — content pipeline
+  is ready but bulk ingestion awaits PM source ("زبدة بنوك المحوسب" format).
 - PocketBase backend scripted but not executed/deployed; no live sync yet.
-- Flutter client is a scaffold shell — features not yet ported; no APK built
-  locally (toolchain absent; CI workflow ready).
+- Flutter client is a scaffold shell — features not yet ported; APK builds
+  in CI only.
 - Google Auth / Analytics / Calendar are env-gated stubs pending credentials.
-- Interactive PDF companion not built; QR deep-links not generated.
-- TIGDR uses original placeholder tiger SVG — tiqdr.com mascot art not
-  publicly exposed; needs brand asset from PM.
+- Interactive PDF companion not built; QR deep-links not generated; exact
+  PDF page numbers for the laws map need extraction from the Al-Moasser PDF.
+- Tiqdr mascot is an original placeholder SVG (traveler boy) — official
+  tiqdr.com mascot art not publicly exposed; needs brand asset from PM.
+- Teacher dashboard is a demo email gate; real auth needs Google OAuth +
+  PocketBase teacher role.
 - Stories content is 3 hand-written stories; needs bulk content pipeline.
 - macOS SwiftUI / Windows WinUI are roadmap-only per spec.
